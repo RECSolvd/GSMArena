@@ -1,0 +1,1250 @@
+2022-01-06 09:01:08 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-06 09:01:08 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:01:09 Reflections [INFO] Reflections took 653 ms to scan 8 urls, producing 2330 keys and 11335 values 
+2022-01-06 09:01:09 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-06 09:01:09 CarinaListener [INFO] Set thread-count=1
+2022-01-06 09:01:09 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-06 09:01:09 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-06 09:01:09 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:01:09 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:01:09 Messager [INFO] TEST [beamplify - testLogin] STARTED at [09:01:09 2022-01-06]
+2022-01-06 09:01:11 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-06 09:01:24 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-06 09:01:27 DriverListener [ERROR] FAIL: keys not cleared in element 'emailField (By.xpath: //input[@id='email' and @type='email'])'.
+2022-01-06 09:01:33 Screenshot [ERROR] Unable to capture full screenshot during 6sec!
+2022-01-06 09:01:33 DriverListener [ERROR] FAIL: keys not cleared in element 'emailField (By.xpath: //input[@id='email' and @type='email'])'.
+2022-01-06 09:01:39 Screenshot [ERROR] Unable to capture full screenshot during 6sec!
+2022-01-06 09:01:45 Screenshot [ERROR] Unable to capture full screenshot during 6sec!
+2022-01-06 09:01:46 Messager [ERROR] TEST [beamplify - testLogin] FAILED at [09:01:46 2022-01-06] - element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MBP', ip: 'fe80:0:0:0:8cd:5:eb2d:494a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:59252}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09bc8fc6d084c8f0e3fcff317d6385bf
+
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+com.sun.proxy.$Proxy20.clear(Unknown Source)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement$1.doType(ExtendedWebElement.java:1512)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.executeAction(ExtendedWebElement.java:1306)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.overrideAction(ExtendedWebElement.java:1433)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1406)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:686)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:674)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:664)
+com.solvd.beamplify.HomePage.inputEmailField(HomePage.java:44)
+com.solvd.beamplify.services.SignInService.testLogin(SignInService.java:19)
+com.solvd.beamplify.tests.BaseTest.testLogin(BaseTest.java:43)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-01-06 09:01:46 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-06 09:01:46 Messager [INFO] RESULT #1: TEST [beamplify - testLogin] FAIL [log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641470468174/dfc7a06c-8d01-40ea-a36a-dd44bb9cfa52/test.log]
+2022-01-06 09:03:27 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-06 09:03:28 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:03:28 Reflections [INFO] Reflections took 700 ms to scan 8 urls, producing 2330 keys and 11335 values 
+2022-01-06 09:03:28 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-06 09:03:28 CarinaListener [INFO] Set thread-count=1
+2022-01-06 09:03:28 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-06 09:03:28 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-06 09:03:28 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:03:29 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:03:29 Messager [INFO] TEST [beamplify - testLogin] STARTED at [09:03:29 2022-01-06]
+2022-01-06 09:03:31 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-06 09:03:43 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-06 09:04:05 ExtendedWebElement [ERROR] FAIL: click - waitCondition for element 'logInButton (By.xpath: //input[@class='head-icon icon-login'])' not satisfied!
+2022-01-06 09:04:11 Screenshot [ERROR] Unable to capture full screenshot during 6sec!
+2022-01-06 09:04:11 Messager [ERROR] TEST [beamplify - testLogin] FAILED at [09:04:11 2022-01-06] - Unable to detect element: logInButton (By.xpath: //input[@class='head-icon icon-login'])
+
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1416)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1363)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:520)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:506)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:497)
+com.solvd.beamplify.HomePage.clickLoginButton(HomePage.java:48)
+com.solvd.beamplify.services.SignInService.goToLogin(SignInService.java:14)
+com.solvd.beamplify.services.SignInService.testLogin(SignInService.java:19)
+com.solvd.beamplify.tests.BaseTest.testLogin(BaseTest.java:43)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-01-06 09:04:11 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-06 09:04:11 Messager [INFO] RESULT #1: TEST [beamplify - testLogin] FAIL [log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641470607960/fbbbbd38-0a5c-4ec1-a8da-c9597e474070/test.log]
+2022-01-06 09:07:32 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-06 09:07:33 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:07:33 Reflections [INFO] Reflections took 719 ms to scan 8 urls, producing 2330 keys and 11335 values 
+2022-01-06 09:07:33 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-06 09:07:33 CarinaListener [INFO] Set thread-count=1
+2022-01-06 09:07:33 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-06 09:07:33 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-06 09:07:33 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:07:33 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:07:33 Messager [INFO] TEST [beamplify - testLogin] STARTED at [09:07:33 2022-01-06]
+2022-01-06 09:07:36 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-06 09:07:49 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-06 09:07:52 DriverListener [ERROR] FAIL: element 'logInButton (By.xpath: //input[@id='nick-submit' and @value='Log in'])' is not clicked!
+2022-01-06 09:07:58 Screenshot [ERROR] Unable to capture full screenshot during 6sec!
+2022-01-06 09:07:58 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'logInButton (By.xpath: //input[@id='nick-submit' and @value='Log in'])' is not visible...
+2022-01-06 09:07:59 DriverListener [ERROR] FAIL: keys not cleared in element 'emailField (By.xpath: //input[@id='email' and @type='email'])'.
+2022-01-06 09:08:05 Screenshot [ERROR] Unable to capture full screenshot during 6sec!
+2022-01-06 09:08:05 DriverListener [ERROR] FAIL: keys not cleared in element 'emailField (By.xpath: //input[@id='email' and @type='email'])'.
+2022-01-06 09:08:11 Screenshot [ERROR] Unable to capture full screenshot during 6sec!
+2022-01-06 09:08:17 Screenshot [ERROR] Unable to capture full screenshot during 6sec!
+2022-01-06 09:08:17 Messager [ERROR] TEST [beamplify - testLogin] FAILED at [09:08:17 2022-01-06] - element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MBP', ip: 'fe80:0:0:0:8cd:5:eb2d:494a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:61495}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3f6c96ebb72f8598e29c3b95d12d89f9
+
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+com.sun.proxy.$Proxy20.clear(Unknown Source)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement$1.doType(ExtendedWebElement.java:1512)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.executeAction(ExtendedWebElement.java:1306)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.overrideAction(ExtendedWebElement.java:1433)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1406)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:686)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:674)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:664)
+com.solvd.beamplify.HomePage.inputEmailField(HomePage.java:44)
+com.solvd.beamplify.services.SignInService.testLogin(SignInService.java:20)
+com.solvd.beamplify.tests.BaseTest.testLogin(BaseTest.java:43)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-01-06 09:08:17 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-06 09:08:17 Messager [INFO] RESULT #1: TEST [beamplify - testLogin] FAIL [log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641470852872/84fc3ef0-365e-43ac-8e21-66d812201392/test.log]
+2022-01-06 09:15:56 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-06 09:15:56 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:15:57 Reflections [INFO] Reflections took 583 ms to scan 8 urls, producing 2330 keys and 11335 values 
+2022-01-06 09:15:57 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-06 09:15:57 CarinaListener [INFO] Set thread-count=1
+2022-01-06 09:15:57 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-06 09:15:57 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-06 09:15:57 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:15:57 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:15:57 Messager [INFO] TEST [beamplify - testLogin] STARTED at [09:15:57 2022-01-06]
+2022-01-06 09:15:59 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-06 09:16:14 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-06 09:16:16 DriverListener [INFO] PASS: element 'logInButton' is clicked.
+2022-01-06 09:16:18 DriverListener [INFO] PASS: keys cleared in element 'emailField'.
+2022-01-06 09:16:20 DriverListener [INFO] PASS: keys 'lfonseca@solvd.com' are sent to element 'emailField'.
+2022-01-06 09:16:42 ExtendedWebElement [ERROR] FAIL: type - waitCondition for element 'passwordField (By.xpath: //input[@id='upass' and type='password'])' not satisfied!
+2022-01-06 09:16:48 Screenshot [ERROR] Unable to capture full screenshot during 6sec!
+2022-01-06 09:16:48 Messager [ERROR] TEST [beamplify - testLogin] FAILED at [09:16:48 2022-01-06] - Unable to detect element: passwordField (By.xpath: //input[@id='upass' and type='password'])
+
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1416)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:686)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:674)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:664)
+com.solvd.beamplify.HomePage.inputPasswordField(HomePage.java:40)
+com.solvd.beamplify.services.SignInService.testLogin(SignInService.java:21)
+com.solvd.beamplify.tests.BaseTest.testLogin(BaseTest.java:43)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-01-06 09:16:48 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-06 09:16:48 Messager [INFO] RESULT #1: TEST [beamplify - testLogin] FAIL [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641471356833/9abb5125-0666-4a8b-96f5-f9d1fa81c6db/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641471356833/9abb5125-0666-4a8b-96f5-f9d1fa81c6db/test.log]
+2022-01-06 09:17:42 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-06 09:17:42 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:17:43 Reflections [INFO] Reflections took 835 ms to scan 8 urls, producing 2330 keys and 11335 values 
+2022-01-06 09:17:43 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-06 09:17:43 CarinaListener [INFO] Set thread-count=1
+2022-01-06 09:17:43 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-06 09:17:43 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-06 09:17:43 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:17:44 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:17:44 Messager [INFO] TEST [beamplify - testLogin] STARTED at [09:17:44 2022-01-06]
+2022-01-06 09:17:46 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-06 09:18:06 DriverHelper [ERROR] Unable to open url during 20sec!
+2022-01-06 09:18:12 IDriverPool [ERROR] Unable to quit driver for 6sec!
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.quitDriver(IDriverPool.java:316)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.quitDrivers(IDriverPool.java:263)
+	at com.qaprosoft.carina.core.foundation.listeners.CarinaListener.onTestFinish(CarinaListener.java:372)
+	at com.qaprosoft.carina.core.foundation.listeners.CarinaListener.onTestFailure(CarinaListener.java:326)
+	at com.nordstrom.automation.testng.ListenerChain.onTestFailure(ListenerChain.java:395)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:96)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:656)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-01-06 09:18:12 Messager [ERROR] TEST [beamplify - testLogin] FAILED at [09:18:12 2022-01-06] - Unable to open url during 20sec!
+
+org.testng.Assert.fail(Assert.java:87)
+com.qaprosoft.carina.core.foundation.webdriver.DriverHelper.openURL(DriverHelper.java:167)
+com.qaprosoft.carina.core.foundation.webdriver.DriverHelper.openURL(DriverHelper.java:130)
+com.qaprosoft.carina.core.foundation.webdriver.DriverHelper.open(DriverHelper.java:120)
+com.solvd.beamplify.HomePage.<init>(HomePage.java:31)
+com.solvd.beamplify.services.SignInService.goToLogin(SignInService.java:13)
+com.solvd.beamplify.services.SignInService.testLogin(SignInService.java:19)
+com.solvd.beamplify.tests.BaseTest.testLogin(BaseTest.java:43)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-01-06 09:18:12 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-06 09:18:12 Messager [INFO] RESULT #1: TEST [beamplify - testLogin] FAIL [log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641471462791/1deb4018-b93c-4546-905e-76d11ff4e95d/test.log]
+2022-01-06 09:18:27 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-06 09:18:27 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:18:28 Reflections [INFO] Reflections took 610 ms to scan 8 urls, producing 2330 keys and 11335 values 
+2022-01-06 09:18:28 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-06 09:18:28 CarinaListener [INFO] Set thread-count=1
+2022-01-06 09:18:28 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-06 09:18:28 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-06 09:18:28 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:18:28 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:18:28 Messager [INFO] TEST [beamplify - testLogin] STARTED at [09:18:28 2022-01-06]
+2022-01-06 09:18:30 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-06 09:18:33 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-06 09:18:36 DriverListener [INFO] PASS: element 'logInButton' is clicked.
+2022-01-06 09:18:38 DriverListener [INFO] PASS: keys cleared in element 'emailField'.
+2022-01-06 09:18:39 DriverListener [INFO] PASS: keys 'lfonseca@solvd.com' are sent to element 'emailField'.
+2022-01-06 09:18:41 DriverListener [INFO] PASS: keys cleared in element 'passwordField'.
+2022-01-06 09:18:43 DriverListener [INFO] PASS: keys 'Automation' are sent to element 'passwordField'.
+2022-01-06 09:18:45 DriverListener [INFO] PASS: element 'submitLoginButton' is clicked.
+2022-01-06 09:18:46 Messager [INFO] TEST [beamplify - testLogin] PASSED at [09:18:46 2022-01-06]
+2022-01-06 09:18:46 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-06 09:18:46 Messager [INFO] RESULT #1: TEST [beamplify - testLogin] PASS [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641471507200/63600998-8f79-4ebc-a4f5-052d5e5a6d2a/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641471507200/63600998-8f79-4ebc-a4f5-052d5e5a6d2a/test.log]
+2022-01-06 09:30:44 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-06 09:30:45 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:30:45 Reflections [INFO] Reflections took 787 ms to scan 8 urls, producing 2330 keys and 11335 values 
+2022-01-06 09:30:46 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-06 09:30:46 CarinaListener [INFO] Set thread-count=1
+2022-01-06 09:30:46 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-06 09:30:46 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-06 09:30:46 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:30:46 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:30:46 Messager [INFO] TEST [beamplify - invalidUserPassLogin] STARTED at [09:30:46 2022-01-06]
+2022-01-06 09:30:48 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-06 09:30:59 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-06 09:31:02 DriverListener [INFO] PASS: element 'logInButton' is clicked.
+2022-01-06 09:31:04 DriverListener [INFO] PASS: keys cleared in element 'emailField'.
+2022-01-06 09:31:05 DriverListener [INFO] PASS: keys 'lfonseca@solvd.coma' are sent to element 'emailField'.
+2022-01-06 09:31:07 DriverListener [INFO] PASS: keys cleared in element 'passwordField'.
+2022-01-06 09:31:09 DriverListener [INFO] PASS: keys 'Automationa' are sent to element 'passwordField'.
+2022-01-06 09:31:12 DriverListener [INFO] PASS: element 'submitLoginButton' is clicked.
+2022-01-06 09:31:13 Messager [INFO] TEST [beamplify - invalidUserPassLogin] PASSED at [09:31:13 2022-01-06]
+2022-01-06 09:31:13 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-06 09:31:13 Messager [INFO] RESULT #1: TEST [beamplify - invalidUserPassLogin] PASS [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641472244960/f0523cbb-499b-414a-a6b2-87f8d79c5b20/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641472244960/f0523cbb-499b-414a-a6b2-87f8d79c5b20/test.log]
+2022-01-06 09:33:51 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-06 09:33:51 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:33:52 Reflections [INFO] Reflections took 833 ms to scan 8 urls, producing 2330 keys and 11335 values 
+2022-01-06 09:33:52 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-06 09:33:52 CarinaListener [INFO] Set thread-count=1
+2022-01-06 09:33:52 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-06 09:33:52 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-06 09:33:52 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:33:52 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:33:52 Messager [INFO] TEST [beamplify - invalidUserPassLogin] STARTED at [09:33:52 2022-01-06]
+2022-01-06 09:33:55 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-06 09:34:13 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-06 09:34:15 DriverHelper [ERROR] Unable to open url during 20sec!
+2022-01-06 09:34:15 Messager [ERROR] TEST [beamplify - invalidUserPassLogin] FAILED at [09:34:15 2022-01-06] - Unable to open url during 20sec!
+
+org.testng.Assert.fail(Assert.java:87)
+com.qaprosoft.carina.core.foundation.webdriver.DriverHelper.openURL(DriverHelper.java:167)
+com.qaprosoft.carina.core.foundation.webdriver.DriverHelper.openURL(DriverHelper.java:130)
+com.qaprosoft.carina.core.foundation.webdriver.DriverHelper.open(DriverHelper.java:120)
+com.solvd.beamplify.HomePage.<init>(HomePage.java:31)
+com.solvd.beamplify.services.SignInService.goToLogin(SignInService.java:14)
+com.solvd.beamplify.services.SignInService.invalidUserPassLogin(SignInService.java:28)
+com.solvd.beamplify.tests.BaseTest.invalidUserPassLogin(BaseTest.java:48)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-01-06 09:34:15 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-06 09:34:15 Messager [INFO] RESULT #1: TEST [beamplify - invalidUserPassLogin] FAIL [log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641472431687/1abf5ad6-af1b-4fd7-af27-0accd25a55a9/test.log]
+2022-01-06 09:34:29 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-06 09:34:29 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:34:30 Reflections [INFO] Reflections took 683 ms to scan 8 urls, producing 2330 keys and 11335 values 
+2022-01-06 09:34:30 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-06 09:34:30 CarinaListener [INFO] Set thread-count=1
+2022-01-06 09:34:30 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-06 09:34:30 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-06 09:34:30 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:34:30 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:34:30 Messager [INFO] TEST [beamplify - invalidUserPassLogin] STARTED at [09:34:30 2022-01-06]
+2022-01-06 09:34:32 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-06 09:34:42 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-06 09:34:44 DriverListener [INFO] PASS: element 'logInButton' is clicked.
+2022-01-06 09:34:46 DriverListener [INFO] PASS: keys cleared in element 'emailField'.
+2022-01-06 09:34:48 DriverListener [INFO] PASS: keys 'lfonseca@solvd.coma' are sent to element 'emailField'.
+2022-01-06 09:34:49 DriverListener [INFO] PASS: keys cleared in element 'passwordField'.
+2022-01-06 09:34:51 DriverListener [INFO] PASS: keys 'Automationa' are sent to element 'passwordField'.
+2022-01-06 09:34:53 DriverListener [INFO] PASS: element 'submitLoginButton' is clicked.
+2022-01-06 09:34:55 Messager [INFO] TEST [beamplify - invalidUserPassLogin] PASSED at [09:34:55 2022-01-06]
+2022-01-06 09:34:55 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-06 09:34:55 Messager [INFO] RESULT #1: TEST [beamplify - invalidUserPassLogin] PASS [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641472469389/6ffc33e0-19c2-414b-82c4-dfa35b847c3a/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641472469389/6ffc33e0-19c2-414b-82c4-dfa35b847c3a/test.log]
+2022-01-06 09:41:49 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-06 09:41:50 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:41:50 Reflections [INFO] Reflections took 631 ms to scan 8 urls, producing 2330 keys and 11335 values 
+2022-01-06 09:41:50 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-06 09:41:50 CarinaListener [INFO] Set thread-count=1
+2022-01-06 09:41:50 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-06 09:41:50 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-06 09:41:50 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:41:50 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:41:50 Messager [INFO] TEST [beamplify - testEmptySignInEmail] STARTED at [09:41:50 2022-01-06]
+2022-01-06 09:41:52 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-06 09:42:06 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-06 09:42:08 DriverListener [INFO] PASS: element 'logInButton' is clicked.
+2022-01-06 09:42:09 DriverListener [INFO] PASS: keys cleared in element 'passwordField'.
+2022-01-06 09:42:11 DriverListener [INFO] PASS: keys 'Automation' are sent to element 'passwordField'.
+2022-01-06 09:42:13 DriverListener [INFO] PASS: element 'submitLoginButton' is clicked.
+2022-01-06 09:42:35 ExtendedWebElement [ERROR] FAIL: get_text - waitCondition for element 'emailFailed (By.xpath: //div[@class='normal-text res-error']//p)' not satisfied!
+2022-01-06 09:42:41 Screenshot [ERROR] Unable to capture full screenshot during 6sec!
+2022-01-06 09:42:42 Messager [ERROR] TEST [beamplify - testEmptySignInEmail] FAILED at [09:42:42 2022-01-06] - Unable to detect element: emailFailed (By.xpath: //div[@class='normal-text res-error']//p)
+
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1416)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1363)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.getText(ExtendedWebElement.java:462)
+com.solvd.beamplify.RegisterPage.getInvalidEmailText(RegisterPage.java:18)
+com.solvd.beamplify.tests.BaseTest.testEmptySignInEmail(BaseTest.java:57)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-01-06 09:42:42 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-06 09:42:42 Messager [INFO] RESULT #1: TEST [beamplify - testEmptySignInEmail] FAIL [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641472910006/6eca8f12-d4b6-4798-999b-889f0f643edb/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641472910006/6eca8f12-d4b6-4798-999b-889f0f643edb/test.log]
+2022-01-06 09:49:42 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-06 09:49:43 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:49:43 Reflections [INFO] Reflections took 715 ms to scan 8 urls, producing 2330 keys and 11335 values 
+2022-01-06 09:49:43 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-06 09:49:43 CarinaListener [INFO] Set thread-count=1
+2022-01-06 09:49:43 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-06 09:49:43 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-06 09:49:43 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:49:44 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:49:44 Messager [INFO] TEST [beamplify - testEmptySignInEmail] STARTED at [09:49:44 2022-01-06]
+2022-01-06 09:49:46 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-06 09:49:57 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-06 09:50:00 DriverListener [INFO] PASS: element 'logInButton' is clicked.
+2022-01-06 09:50:02 DriverListener [INFO] PASS: keys cleared in element 'passwordField'.
+2022-01-06 09:50:03 DriverListener [INFO] PASS: keys 'Automation' are sent to element 'passwordField'.
+2022-01-06 09:50:06 Messager [INFO] TEST [beamplify - testEmptySignInEmail] PASSED at [09:50:06 2022-01-06]
+2022-01-06 09:50:06 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-06 09:50:06 Messager [INFO] RESULT #1: TEST [beamplify - testEmptySignInEmail] PASS [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641473382950/73c293f9-01b7-4058-8976-92d3079dc65f/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641473382950/73c293f9-01b7-4058-8976-92d3079dc65f/test.log]
+2022-01-06 09:52:34 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-06 09:52:34 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:52:35 Reflections [INFO] Reflections took 794 ms to scan 8 urls, producing 2330 keys and 11335 values 
+2022-01-06 09:52:35 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-06 09:52:35 CarinaListener [INFO] Set thread-count=1
+2022-01-06 09:52:35 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-06 09:52:35 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-06 09:52:35 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:52:35 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 09:52:35 Messager [INFO] TEST [beamplify - testEmptySignInPassword] STARTED at [09:52:35 2022-01-06]
+2022-01-06 09:52:37 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-06 09:52:48 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-06 09:52:50 DriverListener [INFO] PASS: element 'logInButton' is clicked.
+2022-01-06 09:52:52 DriverListener [INFO] PASS: keys cleared in element 'emailField'.
+2022-01-06 09:52:53 DriverListener [INFO] PASS: keys 'lfonseca@solvd.com' are sent to element 'emailField'.
+2022-01-06 09:52:56 Messager [INFO] TEST [beamplify - testEmptySignInPassword] PASSED at [09:52:56 2022-01-06]
+2022-01-06 09:52:57 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-06 09:52:57 Messager [INFO] RESULT #1: TEST [beamplify - testEmptySignInPassword] PASS [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641473554244/a20caa94-0c03-4b45-8684-425bed5c4a9c/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641473554244/a20caa94-0c03-4b45-8684-425bed5c4a9c/test.log]
+2022-01-06 10:52:56 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-06 10:52:56 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 10:52:57 Reflections [INFO] Reflections took 671 ms to scan 8 urls, producing 2330 keys and 11336 values 
+2022-01-06 10:52:57 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-06 10:52:57 CarinaListener [INFO] Set thread-count=1
+2022-01-06 10:52:57 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-06 10:52:57 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-06 10:52:57 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 10:52:57 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 10:52:57 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 10:52:57 Messager [INFO] TEST [beamplify - testBrandSearch [L01]] STARTED at [10:52:57 2022-01-06]
+2022-01-06 10:52:59 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-06 10:53:12 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-06 10:53:14 DriverListener [INFO] PASS: keys cleared in element 'searchField'.
+2022-01-06 10:53:16 DriverListener [INFO] PASS: keys 'Samsung' are sent to element 'searchField'.
+2022-01-06 10:53:19 Messager [INFO] TEST [beamplify - testBrandSearch [L01]] PASSED at [10:53:19 2022-01-06]
+2022-01-06 10:53:19 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 10:53:19 Messager [INFO] TEST [beamplify - testBrandSearch [L02]] STARTED at [10:53:19 2022-01-06]
+2022-01-06 10:53:21 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-06 10:53:32 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-06 10:53:34 DriverListener [INFO] PASS: keys cleared in element 'searchField'.
+2022-01-06 10:53:36 DriverListener [INFO] PASS: keys 'Apple' are sent to element 'searchField'.
+2022-01-06 10:53:43 Messager [INFO] TEST [beamplify - testBrandSearch [L02]] PASSED at [10:53:43 2022-01-06]
+2022-01-06 10:53:43 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 10:53:43 Messager [INFO] TEST [beamplify - testBrandSearch [L03]] STARTED at [10:53:43 2022-01-06]
+2022-01-06 10:53:44 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-06 10:53:58 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-06 10:54:00 DriverListener [INFO] PASS: keys cleared in element 'searchField'.
+2022-01-06 10:54:01 DriverListener [INFO] PASS: keys 'Huawei' are sent to element 'searchField'.
+2022-01-06 10:54:08 Messager [INFO] TEST [beamplify - testBrandSearch [L03]] PASSED at [10:54:08 2022-01-06]
+2022-01-06 10:54:08 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 10:54:08 Messager [INFO] TEST [beamplify - testBrandSearch [L04]] STARTED at [10:54:08 2022-01-06]
+2022-01-06 10:54:10 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-06 10:54:21 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-06 10:54:23 DriverListener [INFO] PASS: keys cleared in element 'searchField'.
+2022-01-06 10:54:25 DriverListener [INFO] PASS: keys 'Nokia' are sent to element 'searchField'.
+2022-01-06 10:54:32 Messager [INFO] TEST [beamplify - testBrandSearch [L04]] PASSED at [10:54:32 2022-01-06]
+2022-01-06 10:54:32 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-06 10:54:32 Messager [INFO] RESULT #1: TEST [beamplify - testBrandSearch [L01]] PASS [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641477176323/bd32e790-8e42-4fc8-aea7-612567a2b82d/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641477176323/bd32e790-8e42-4fc8-aea7-612567a2b82d/test.log]
+2022-01-06 10:54:32 Messager [INFO] RESULT #2: TEST [beamplify - testBrandSearch [L02]] PASS [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641477176323/95fe88b1-84ac-4c1a-92fb-380bf8765724/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641477176323/95fe88b1-84ac-4c1a-92fb-380bf8765724/test.log]
+2022-01-06 10:54:32 Messager [INFO] RESULT #3: TEST [beamplify - testBrandSearch [L03]] PASS [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641477176323/c41dbb38-6238-45f4-8197-8136e1b2cb87/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641477176323/c41dbb38-6238-45f4-8197-8136e1b2cb87/test.log]
+2022-01-06 10:54:32 Messager [INFO] RESULT #4: TEST [beamplify - testBrandSearch [L04]] PASS [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641477176323/c793b374-1595-4562-84ca-c9f93c4355b3/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641477176323/c793b374-1595-4562-84ca-c9f93c4355b3/test.log]
+2022-01-06 10:59:44 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-06 10:59:45 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 10:59:45 Reflections [INFO] Reflections took 729 ms to scan 8 urls, producing 2330 keys and 11336 values 
+2022-01-06 10:59:46 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-06 10:59:46 CarinaListener [INFO] Set thread-count=1
+2022-01-06 10:59:46 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-06 10:59:46 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-06 10:59:46 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 10:59:46 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 10:59:46 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 10:59:46 Messager [INFO] TEST [beamplify - testModelSearch [L01]] STARTED at [10:59:46 2022-01-06]
+2022-01-06 10:59:48 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-06 10:59:50 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-06 10:59:53 DriverListener [INFO] PASS: keys cleared in element 'searchField'.
+2022-01-06 10:59:55 DriverListener [INFO] PASS: keys 'A51' are sent to element 'searchField'.
+2022-01-06 11:00:02 Messager [INFO] TEST [beamplify - testModelSearch [L01]] PASSED at [11:00:02 2022-01-06]
+2022-01-06 11:00:02 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 11:00:02 Messager [INFO] TEST [beamplify - testModelSearch [L02]] STARTED at [11:00:02 2022-01-06]
+2022-01-06 11:00:04 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-06 11:00:17 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-06 11:00:19 DriverListener [INFO] PASS: keys cleared in element 'searchField'.
+2022-01-06 11:00:21 DriverListener [INFO] PASS: keys 'iPhone X' are sent to element 'searchField'.
+2022-01-06 11:00:29 Messager [INFO] TEST [beamplify - testModelSearch [L02]] PASSED at [11:00:29 2022-01-06]
+2022-01-06 11:00:29 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 11:00:29 Messager [INFO] TEST [beamplify - testModelSearch [L03]] STARTED at [11:00:29 2022-01-06]
+2022-01-06 11:00:31 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-06 11:00:46 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-06 11:00:47 DriverListener [INFO] PASS: keys cleared in element 'searchField'.
+2022-01-06 11:00:49 DriverListener [INFO] PASS: keys 'P20' are sent to element 'searchField'.
+2022-01-06 11:00:55 Messager [INFO] TEST [beamplify - testModelSearch [L03]] PASSED at [11:00:55 2022-01-06]
+2022-01-06 11:00:55 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 11:00:55 Messager [INFO] TEST [beamplify - testModelSearch [L04]] STARTED at [11:00:55 2022-01-06]
+2022-01-06 11:00:57 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-06 11:01:09 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-06 11:01:11 DriverListener [INFO] PASS: keys cleared in element 'searchField'.
+2022-01-06 11:01:13 DriverListener [INFO] PASS: keys '1100' are sent to element 'searchField'.
+2022-01-06 11:01:22 Messager [INFO] TEST [beamplify - testModelSearch [L04]] PASSED at [11:01:22 2022-01-06]
+2022-01-06 11:01:22 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-06 11:01:22 Messager [INFO] RESULT #1: TEST [beamplify - testModelSearch [L01]] PASS [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641477585018/6fde8cfb-832f-45cf-8a63-544b4bc3531d/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641477585018/6fde8cfb-832f-45cf-8a63-544b4bc3531d/test.log]
+2022-01-06 11:01:22 Messager [INFO] RESULT #2: TEST [beamplify - testModelSearch [L02]] PASS [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641477585018/fee2c9b0-7b49-46b6-bce4-ae35df9041c7/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641477585018/fee2c9b0-7b49-46b6-bce4-ae35df9041c7/test.log]
+2022-01-06 11:01:22 Messager [INFO] RESULT #3: TEST [beamplify - testModelSearch [L03]] PASS [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641477585018/330c7ead-c5fb-4b48-8fc9-060b1eaa6843/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641477585018/330c7ead-c5fb-4b48-8fc9-060b1eaa6843/test.log]
+2022-01-06 11:01:22 Messager [INFO] RESULT #4: TEST [beamplify - testModelSearch [L04]] PASS [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641477585018/88786224-fb8a-4ef6-842f-f5924f5a32cf/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641477585018/88786224-fb8a-4ef6-842f-f5924f5a32cf/test.log]
+2022-01-06 11:03:24 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-06 11:03:24 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 11:03:25 Reflections [INFO] Reflections took 1034 ms to scan 8 urls, producing 2330 keys and 11336 values 
+2022-01-06 11:03:25 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-06 11:03:25 CarinaListener [INFO] Set thread-count=1
+2022-01-06 11:03:25 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-06 11:03:25 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-06 11:03:25 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 11:03:25 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-06 11:03:26 Messager [INFO] TEST [beamplify - testErrorMessage] STARTED at [11:03:25 2022-01-06]
+2022-01-06 11:03:28 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-06 11:03:43 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-06 11:03:44 DriverListener [INFO] PASS: keys cleared in element 'searchField'.
+2022-01-06 11:03:46 DriverListener [INFO] PASS: keys 'jasjdak' are sent to element 'searchField'.
+2022-01-06 11:03:50 Messager [INFO] TEST [beamplify - testErrorMessage] PASSED at [11:03:50 2022-01-06]
+2022-01-06 11:03:50 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-06 11:03:50 Messager [INFO] RESULT #1: TEST [beamplify - testErrorMessage] PASS [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641477804522/fee41f62-7750-4084-93d6-171c30cf2f35/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641477804522/fee41f62-7750-4084-93d6-171c30cf2f35/test.log]

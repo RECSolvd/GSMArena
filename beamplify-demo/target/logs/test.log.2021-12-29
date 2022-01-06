@@ -1,0 +1,2233 @@
+2021-12-29 15:20:49 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://beamplify.com/
+env=DEMO
+selenium_url=http://localhost:4444/wd/hub
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:4444/wd/hub
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2021-12-29 15:20:49 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 15:20:50 Reflections [INFO] Reflections took 836 ms to scan 8 urls, producing 2329 keys and 11332 values 
+2021-12-29 15:20:50 FilterTestsListener [INFO] There are no any rules and limitations
+2021-12-29 15:20:50 CarinaListener [INFO] Set thread-count=1
+2021-12-29 15:20:50 CarinaListener [INFO] Set data-provider-thread-count=1
+2021-12-29 15:20:50 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2021-12-29 15:20:50 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 15:20:50 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 15:20:50 Messager [INFO] TEST [beamplify - verifyHomePageWorkflow] STARTED at [15:20:50 2021-12-29]
+2021-12-29 15:20:51 IDriverPool [ERROR] Driver initialization 'default' FAILED! Retry 1 of 1 time - Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MacBook-Pro.local', ip: 'fe80:0:0:0:64:5f9b:55cf:575c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: driver.version: RemoteWebDriver
+org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MacBook-Pro.local', ip: 'fe80:0:0:0:64:5f9b:55cf:575c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession$original$bo9zE2Oz(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession$original$bo9zE2Oz$accessor$XTTJ7MW0(RemoteWebDriver.java)
+	at org.openqa.selenium.remote.RemoteWebDriver$auxiliary$NQJTJIkx.run(Unknown Source)
+	at com.zebrunner.agent.core.webdriver.StartSessionInterceptor.onSessionStart(StartSessionInterceptor.java:35)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+	at com.qaprosoft.carina.core.foundation.webdriver.core.factory.impl.DesktopFactory.create(DesktopFactory.java:72)
+	at com.qaprosoft.carina.core.foundation.webdriver.core.factory.DriverFactory.create(DriverFactory.java:78)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.createDriver(IDriverPool.java:387)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:129)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:85)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:72)
+	at com.solvd.beamplify.tests.BeamplifyDemoTests.verifyHomePageWorkflow(BeamplifyDemoTests.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:4444
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	... 41 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+	... 63 more
+2021-12-29 15:20:51 Messager [ERROR] TEST [beamplify - verifyHomePageWorkflow] FAILED at [15:20:51 2021-12-29] - Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MacBook-Pro.local', ip: 'fe80:0:0:0:64:5f9b:55cf:575c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: driver.version: RemoteWebDriver
+
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+org.openqa.selenium.remote.RemoteWebDriver.startSession$original$bo9zE2Oz(RemoteWebDriver.java:213)
+org.openqa.selenium.remote.RemoteWebDriver.startSession$original$bo9zE2Oz$accessor$XTTJ7MW0(RemoteWebDriver.java)
+org.openqa.selenium.remote.RemoteWebDriver$auxiliary$NQJTJIkx.run(Unknown Source)
+com.zebrunner.agent.core.webdriver.StartSessionInterceptor.onSessionStart(StartSessionInterceptor.java:35)
+org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+com.qaprosoft.carina.core.foundation.webdriver.core.factory.impl.DesktopFactory.create(DesktopFactory.java:72)
+com.qaprosoft.carina.core.foundation.webdriver.core.factory.DriverFactory.create(DriverFactory.java:78)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.createDriver(IDriverPool.java:387)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:129)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:85)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:72)
+com.solvd.beamplify.tests.BeamplifyDemoTests.verifyHomePageWorkflow(BeamplifyDemoTests.java:16)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2021-12-29 15:20:51 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2021-12-29 15:20:51 Messager [INFO] RESULT #1: TEST [beamplify - verifyHomePageWorkflow] FAIL [log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640802049092/725c78f7-668f-4582-897e-2fd1b87f17db/test.log]
+2021-12-29 15:25:14 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://beamplify.com/
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2021-12-29 15:25:14 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 15:25:15 Reflections [INFO] Reflections took 834 ms to scan 8 urls, producing 2329 keys and 11332 values 
+2021-12-29 15:25:15 FilterTestsListener [INFO] There are no any rules and limitations
+2021-12-29 15:25:15 CarinaListener [INFO] Set thread-count=1
+2021-12-29 15:25:15 CarinaListener [INFO] Set data-provider-thread-count=1
+2021-12-29 15:25:15 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2021-12-29 15:25:15 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 15:25:15 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 15:25:15 Messager [INFO] TEST [beamplify - verifyHomePageWorkflow] STARTED at [15:25:15 2021-12-29]
+2021-12-29 15:25:17 Messager [INFO] INFO: opening url 'https://beamplify.com/'
+2021-12-29 15:25:34 DriverListener [INFO] URL 'https://beamplify.com/' opened
+2021-12-29 15:25:36 DriverListener [INFO] PASS: element 'getQuoteButton' is clicked.
+2021-12-29 15:25:46 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 15:25:47 Messager [INFO] TEST [beamplify - verifyHomePageWorkflow] PASSED at [15:25:47 2021-12-29]
+2021-12-29 15:25:47 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2021-12-29 15:25:47 Messager [INFO] RESULT #1: TEST [beamplify - verifyHomePageWorkflow] PASS [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640802314033/8c4126f4-5859-4e76-b7a9-b992d86b8906/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640802314033/8c4126f4-5859-4e76-b7a9-b992d86b8906/test.log]
+2021-12-29 15:29:57 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://beamplify.com/
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2021-12-29 15:29:57 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 15:29:58 Reflections [INFO] Reflections took 806 ms to scan 8 urls, producing 2329 keys and 11332 values 
+2021-12-29 15:29:58 FilterTestsListener [INFO] There are no any rules and limitations
+2021-12-29 15:29:58 CarinaListener [INFO] Set thread-count=1
+2021-12-29 15:29:58 CarinaListener [INFO] Set data-provider-thread-count=1
+2021-12-29 15:29:58 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2021-12-29 15:29:58 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 15:29:58 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 15:29:58 Messager [INFO] TEST [beamplify - verifyCheckboxesCanBeSelected] STARTED at [15:29:58 2021-12-29]
+2021-12-29 15:30:00 Messager [INFO] INFO: opening url 'https://beamplify.com/'
+2021-12-29 15:30:09 DriverListener [INFO] URL 'https://beamplify.com/' opened
+2021-12-29 15:30:11 DriverListener [INFO] PASS: element 'getQuoteButton' is clicked.
+2021-12-29 15:30:16 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 15:30:17 DriverListener [ERROR] FAIL: element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not clicked!
+2021-12-29 15:30:20 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not visible...
+2021-12-29 15:30:20 DriverListener [ERROR] FAIL: element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not clicked!
+2021-12-29 15:30:21 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not visible...
+2021-12-29 15:30:21 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 15:30:22 Messager [INFO] TEST [beamplify - verifyCheckboxesCanBeSelected] PASSED at [15:30:22 2021-12-29]
+2021-12-29 15:30:22 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2021-12-29 15:30:22 Messager [INFO] RESULT #1: TEST [beamplify - verifyCheckboxesCanBeSelected] PASS [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640802597467/b655b9cf-1fb5-4c69-a226-cf0e9dc2d995/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640802597467/b655b9cf-1fb5-4c69-a226-cf0e9dc2d995/test.log]
+2021-12-29 15:30:32 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://beamplify.com/
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2021-12-29 15:30:32 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 15:30:33 Reflections [INFO] Reflections took 873 ms to scan 8 urls, producing 2329 keys and 11332 values 
+2021-12-29 15:30:33 FilterTestsListener [INFO] There are no any rules and limitations
+2021-12-29 15:30:33 CarinaListener [INFO] Set thread-count=1
+2021-12-29 15:30:33 CarinaListener [INFO] Set data-provider-thread-count=1
+2021-12-29 15:30:33 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2021-12-29 15:30:33 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 15:30:33 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 15:30:33 Messager [INFO] TEST [beamplify - verifyIfCanEnterDateOfBirth] STARTED at [15:30:33 2021-12-29]
+2021-12-29 15:30:35 Messager [INFO] INFO: opening url 'https://beamplify.com/'
+2021-12-29 15:30:47 DriverListener [INFO] URL 'https://beamplify.com/' opened
+2021-12-29 15:30:49 DriverListener [INFO] PASS: element 'getQuoteButton' is clicked.
+2021-12-29 15:30:56 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 15:30:57 DriverListener [ERROR] FAIL: element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not clicked!
+2021-12-29 15:31:00 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not visible...
+2021-12-29 15:31:00 DriverListener [ERROR] FAIL: element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not clicked!
+2021-12-29 15:31:00 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not visible...
+2021-12-29 15:31:00 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 15:31:01 DriverListener [INFO] PASS: keys cleared in element 'dateOfBirthField'.
+2021-12-29 15:31:02 DriverListener [INFO] PASS: keys '07031997' are sent to element 'dateOfBirthField'.
+2021-12-29 15:31:03 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 15:31:03 Messager [INFO] TEST [beamplify - verifyIfCanEnterDateOfBirth] PASSED at [15:31:03 2021-12-29]
+2021-12-29 15:31:03 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2021-12-29 15:31:03 Messager [INFO] RESULT #1: TEST [beamplify - verifyIfCanEnterDateOfBirth] PASS [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640802632194/8b69361c-6a8e-4ea7-a4cd-46c363b19f8a/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640802632194/8b69361c-6a8e-4ea7-a4cd-46c363b19f8a/test.log]
+2021-12-29 15:31:11 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://beamplify.com/
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2021-12-29 15:31:11 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 15:31:12 Reflections [INFO] Reflections took 687 ms to scan 8 urls, producing 2329 keys and 11332 values 
+2021-12-29 15:31:12 FilterTestsListener [INFO] There are no any rules and limitations
+2021-12-29 15:31:12 CarinaListener [INFO] Set thread-count=1
+2021-12-29 15:31:12 CarinaListener [INFO] Set data-provider-thread-count=1
+2021-12-29 15:31:12 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2021-12-29 15:31:12 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 15:31:12 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 15:31:12 Messager [INFO] TEST [beamplify - verifyIfCanChooseGender] STARTED at [15:31:12 2021-12-29]
+2021-12-29 15:31:14 Messager [INFO] INFO: opening url 'https://beamplify.com/'
+2021-12-29 15:31:27 DriverListener [INFO] URL 'https://beamplify.com/' opened
+2021-12-29 15:31:29 DriverListener [INFO] PASS: element 'getQuoteButton' is clicked.
+2021-12-29 15:31:35 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 15:31:36 DriverListener [ERROR] FAIL: element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not clicked!
+2021-12-29 15:31:38 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not visible...
+2021-12-29 15:31:38 DriverListener [ERROR] FAIL: element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not clicked!
+2021-12-29 15:31:39 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not visible...
+2021-12-29 15:31:39 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 15:31:40 DriverListener [INFO] PASS: keys cleared in element 'dateOfBirthField'.
+2021-12-29 15:31:40 DriverListener [INFO] PASS: keys '07031997' are sent to element 'dateOfBirthField'.
+2021-12-29 15:31:41 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 15:31:42 DriverListener [INFO] PASS: element 'femaleButton' is clicked.
+2021-12-29 15:31:42 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 15:31:43 Messager [INFO] TEST [beamplify - verifyIfCanChooseGender] PASSED at [15:31:43 2021-12-29]
+2021-12-29 15:31:43 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2021-12-29 15:31:43 Messager [INFO] RESULT #1: TEST [beamplify - verifyIfCanChooseGender] PASS [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640802671638/4d46f1e2-f5ad-4f44-871b-bd2273bb9add/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640802671638/4d46f1e2-f5ad-4f44-871b-bd2273bb9add/test.log]
+2021-12-29 15:31:52 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://beamplify.com/
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2021-12-29 15:31:52 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 15:31:53 Reflections [INFO] Reflections took 614 ms to scan 8 urls, producing 2329 keys and 11332 values 
+2021-12-29 15:31:53 FilterTestsListener [INFO] There are no any rules and limitations
+2021-12-29 15:31:53 CarinaListener [INFO] Set thread-count=1
+2021-12-29 15:31:53 CarinaListener [INFO] Set data-provider-thread-count=1
+2021-12-29 15:31:53 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2021-12-29 15:31:53 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 15:31:53 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 15:31:53 Messager [INFO] TEST [beamplify - verifyCanEnterZipCode] STARTED at [15:31:53 2021-12-29]
+2021-12-29 15:31:55 Messager [INFO] INFO: opening url 'https://beamplify.com/'
+2021-12-29 15:32:06 DriverListener [INFO] URL 'https://beamplify.com/' opened
+2021-12-29 15:32:09 DriverListener [INFO] PASS: element 'getQuoteButton' is clicked.
+2021-12-29 15:32:13 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 15:32:14 DriverListener [ERROR] FAIL: element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not clicked!
+2021-12-29 15:32:17 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not visible...
+2021-12-29 15:32:17 DriverListener [ERROR] FAIL: element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not clicked!
+2021-12-29 15:32:17 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not visible...
+2021-12-29 15:32:17 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 15:32:18 DriverListener [INFO] PASS: keys cleared in element 'dateOfBirthField'.
+2021-12-29 15:32:19 DriverListener [INFO] PASS: keys '07031997' are sent to element 'dateOfBirthField'.
+2021-12-29 15:32:19 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 15:32:20 DriverListener [INFO] PASS: element 'femaleButton' is clicked.
+2021-12-29 15:32:21 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 15:32:21 DriverListener [INFO] PASS: element 'zipCodeField' is clicked.
+2021-12-29 15:32:22 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 15:32:23 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 15:32:23 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 15:32:24 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 15:32:25 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 15:32:25 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 15:32:27 Messager [INFO] TEST [beamplify - verifyCanEnterZipCode] PASSED at [15:32:27 2021-12-29]
+2021-12-29 15:32:27 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2021-12-29 15:32:27 Messager [INFO] RESULT #1: TEST [beamplify - verifyCanEnterZipCode] PASS [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640802712288/5d90b78a-4d06-485d-9948-d69c214531ef/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640802712288/5d90b78a-4d06-485d-9948-d69c214531ef/test.log]
+2021-12-29 15:32:36 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://beamplify.com/
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2021-12-29 15:32:36 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 15:32:37 Reflections [INFO] Reflections took 904 ms to scan 8 urls, producing 2329 keys and 11332 values 
+2021-12-29 15:32:37 FilterTestsListener [INFO] There are no any rules and limitations
+2021-12-29 15:32:37 CarinaListener [INFO] Set thread-count=1
+2021-12-29 15:32:37 CarinaListener [INFO] Set data-provider-thread-count=1
+2021-12-29 15:32:37 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2021-12-29 15:32:38 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 15:32:38 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 15:32:38 Messager [INFO] TEST [beamplify - verifyCanSelectAnualHousehold] STARTED at [15:32:38 2021-12-29]
+2021-12-29 15:32:40 Messager [INFO] INFO: opening url 'https://beamplify.com/'
+2021-12-29 15:32:48 DriverListener [INFO] URL 'https://beamplify.com/' opened
+2021-12-29 15:32:51 DriverListener [INFO] PASS: element 'getQuoteButton' is clicked.
+2021-12-29 15:32:56 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 15:32:57 DriverListener [ERROR] FAIL: element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not clicked!
+2021-12-29 15:32:59 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not visible...
+2021-12-29 15:32:59 DriverListener [ERROR] FAIL: element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not clicked!
+2021-12-29 15:33:00 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not visible...
+2021-12-29 15:33:00 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 15:33:01 DriverListener [INFO] PASS: keys cleared in element 'dateOfBirthField'.
+2021-12-29 15:33:01 DriverListener [INFO] PASS: keys '07031997' are sent to element 'dateOfBirthField'.
+2021-12-29 15:33:02 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 15:33:03 DriverListener [INFO] PASS: element 'femaleButton' is clicked.
+2021-12-29 15:33:03 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 15:33:04 DriverListener [INFO] PASS: element 'zipCodeField' is clicked.
+2021-12-29 15:33:05 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 15:33:05 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 15:33:06 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 15:33:06 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 15:33:07 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 15:33:08 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 15:33:08 DriverListener [ERROR] FAIL: element 'annualHouseholdAndHeightDropdown (By.xpath: //div[@Class=' css-gg2x63'])' is not clicked!
+2021-12-29 15:33:09 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'annualHouseholdAndHeightDropdown (By.xpath: //div[@Class=' css-gg2x63'])' is not visible...
+2021-12-29 15:33:09 DriverListener [ERROR] FAIL: keys not cleared in element 'occupationField (By.xpath: (//div[@class='Input_Input__zKd7A  ']/input)[7])'.
+2021-12-29 15:33:10 DriverListener [ERROR] FAIL: keys not cleared in element 'occupationField (By.xpath: (//div[@class='Input_Input__zKd7A  ']/input)[7])'.
+2021-12-29 15:33:11 Messager [ERROR] TEST [beamplify - verifyCanSelectAnualHousehold] FAILED at [15:33:11 2021-12-29] - element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MacBook-Pro.local', ip: 'fe80:0:0:0:64:5f9b:55cf:575c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:51953}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 90cd31d109f78137b9d980d7c2c893fd
+
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+com.sun.proxy.$Proxy20.clear(Unknown Source)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement$1.doType(ExtendedWebElement.java:1512)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.executeAction(ExtendedWebElement.java:1306)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.overrideAction(ExtendedWebElement.java:1433)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1406)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:686)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:674)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:664)
+com.solvd.beamplify.GetQuotePage.setOccupationField(GetQuotePage.java:245)
+com.solvd.beamplify.services.IGetAQuoteService.goToMonthlyContributionWithDefaults(IGetAQuoteService.java:49)
+com.solvd.beamplify.tests.BeamplifyDemoTests.verifyCanSelectAnualHousehold(BeamplifyDemoTests.java:48)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2021-12-29 15:33:11 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2021-12-29 15:33:11 Messager [INFO] RESULT #1: TEST [beamplify - verifyCanSelectAnualHousehold] FAIL [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640802756694/1fc14c1f-2ba8-4974-ae8b-72012cdc3e46/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640802756694/1fc14c1f-2ba8-4974-ae8b-72012cdc3e46/test.log]
+2021-12-29 15:50:03 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://beamplify.com/
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2021-12-29 15:50:03 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 15:50:04 Reflections [INFO] Reflections took 724 ms to scan 8 urls, producing 2329 keys and 11332 values 
+2021-12-29 15:50:04 FilterTestsListener [INFO] There are no any rules and limitations
+2021-12-29 15:50:04 CarinaListener [INFO] Set thread-count=1
+2021-12-29 15:50:04 CarinaListener [INFO] Set data-provider-thread-count=1
+2021-12-29 15:50:04 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2021-12-29 15:50:04 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 15:50:04 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 15:50:04 Messager [INFO] TEST [beamplify - verifyCanSelectAnualHousehold] STARTED at [15:50:04 2021-12-29]
+2021-12-29 15:50:06 Messager [INFO] INFO: opening url 'https://beamplify.com/'
+2021-12-29 15:50:22 DriverListener [INFO] URL 'https://beamplify.com/' opened
+2021-12-29 15:50:24 DriverListener [INFO] PASS: element 'getQuoteButton' is clicked.
+2021-12-29 15:50:32 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 15:50:33 DriverListener [ERROR] FAIL: element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not clicked!
+2021-12-29 15:50:35 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not visible...
+2021-12-29 15:50:36 DriverListener [ERROR] FAIL: element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not clicked!
+2021-12-29 15:50:36 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not visible...
+2021-12-29 15:50:36 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 15:50:37 DriverListener [INFO] PASS: keys cleared in element 'dateOfBirthField'.
+2021-12-29 15:50:38 DriverListener [INFO] PASS: keys '07031997' are sent to element 'dateOfBirthField'.
+2021-12-29 15:50:38 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 15:50:39 DriverListener [INFO] PASS: element 'femaleButton' is clicked.
+2021-12-29 15:50:40 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 15:50:40 DriverListener [INFO] PASS: element 'zipCodeField' is clicked.
+2021-12-29 15:50:41 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 15:50:42 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 15:50:42 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 15:50:43 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 15:50:44 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 15:50:44 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 15:50:45 DriverListener [ERROR] FAIL: element 'annualHouseholdAndHeightDropdown (By.xpath: //div[@Class=' css-12q0e1x-control'])' is not clicked!
+2021-12-29 15:50:46 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'annualHouseholdAndHeightDropdown (By.xpath: //div[@Class=' css-12q0e1x-control'])' is not visible...
+2021-12-29 15:50:46 DriverListener [ERROR] FAIL: keys not cleared in element 'occupationField (By.xpath: (//div[@class='Input_Input__zKd7A  ']/input)[7])'.
+2021-12-29 15:50:46 DriverListener [ERROR] FAIL: keys not cleared in element 'occupationField (By.xpath: (//div[@class='Input_Input__zKd7A  ']/input)[7])'.
+2021-12-29 15:50:47 Messager [ERROR] TEST [beamplify - verifyCanSelectAnualHousehold] FAILED at [15:50:47 2021-12-29] - element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MacBook-Pro.local', ip: 'fe80:0:0:0:64:5f9b:55cf:575c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:56392}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bb416ef8c485855eb8e130b04fe9143f
+
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+com.sun.proxy.$Proxy20.clear(Unknown Source)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement$1.doType(ExtendedWebElement.java:1512)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.executeAction(ExtendedWebElement.java:1306)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.overrideAction(ExtendedWebElement.java:1433)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1406)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:686)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:674)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:664)
+com.solvd.beamplify.GetQuotePage.setOccupationField(GetQuotePage.java:245)
+com.solvd.beamplify.services.IGetAQuoteService.goToMonthlyContributionWithDefaults(IGetAQuoteService.java:49)
+com.solvd.beamplify.tests.BeamplifyDemoTests.verifyCanSelectAnualHousehold(BeamplifyDemoTests.java:48)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2021-12-29 15:50:47 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2021-12-29 15:50:47 Messager [INFO] RESULT #1: TEST [beamplify - verifyCanSelectAnualHousehold] FAIL [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640803803402/30b0e1e4-9e19-4c30-a993-667fddead91c/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640803803402/30b0e1e4-9e19-4c30-a993-667fddead91c/test.log]
+2021-12-29 16:16:02 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://beamplify.com/
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2021-12-29 16:16:02 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 16:16:03 Reflections [INFO] Reflections took 726 ms to scan 8 urls, producing 2329 keys and 11332 values 
+2021-12-29 16:16:03 FilterTestsListener [INFO] There are no any rules and limitations
+2021-12-29 16:16:03 CarinaListener [INFO] Set thread-count=1
+2021-12-29 16:16:03 CarinaListener [INFO] Set data-provider-thread-count=1
+2021-12-29 16:16:03 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2021-12-29 16:16:03 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 16:16:03 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 16:16:03 Messager [INFO] TEST [beamplify - verifyCanSelectAnualHousehold] STARTED at [16:16:03 2021-12-29]
+2021-12-29 16:16:05 Messager [INFO] INFO: opening url 'https://beamplify.com/'
+2021-12-29 16:16:23 DriverListener [INFO] URL 'https://beamplify.com/' opened
+2021-12-29 16:16:25 DriverListener [INFO] PASS: element 'getQuoteButton' is clicked.
+2021-12-29 16:16:31 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 16:16:32 DriverListener [ERROR] FAIL: element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not clicked!
+2021-12-29 16:16:35 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not visible...
+2021-12-29 16:16:35 DriverListener [ERROR] FAIL: element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not clicked!
+2021-12-29 16:16:35 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not visible...
+2021-12-29 16:16:35 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 16:16:36 DriverListener [INFO] PASS: keys cleared in element 'dateOfBirthField'.
+2021-12-29 16:16:37 DriverListener [INFO] PASS: keys '07031997' are sent to element 'dateOfBirthField'.
+2021-12-29 16:16:38 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 16:16:38 DriverListener [INFO] PASS: element 'femaleButton' is clicked.
+2021-12-29 16:16:39 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 16:16:40 DriverListener [INFO] PASS: element 'zipCodeField' is clicked.
+2021-12-29 16:16:40 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 16:16:41 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 16:16:42 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 16:16:42 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 16:16:43 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 16:16:44 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 16:16:44 DriverListener [ERROR] FAIL: element 'annualHouseholdAndHeightDropdown (By.xpath: //div[@Class=' css-gg2x63'])' is not clicked!
+2021-12-29 16:16:45 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'annualHouseholdAndHeightDropdown (By.xpath: //div[@Class=' css-gg2x63'])' is not visible...
+2021-12-29 16:16:45 DriverListener [INFO] PASS: keys cleared in element 'occupationField'.
+2021-12-29 16:16:45 DriverListener [ERROR] FAIL: keys 'Software developer' are not sent to element 'occupationField (By.xpath: (//div[@class='Input_Input__zKd7A  ']/input)[7])'!
+2021-12-29 16:16:46 DriverListener [ERROR] FAIL: keys not cleared in element 'occupationField (By.xpath: (//div[@class='Input_Input__zKd7A  ']/input)[7])'.
+2021-12-29 16:16:47 Messager [ERROR] TEST [beamplify - verifyCanSelectAnualHousehold] FAILED at [16:16:47 2021-12-29] - element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MacBook-Pro.local', ip: 'fe80:0:0:0:64:5f9b:55cf:575c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:63014}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e05db39afc23aa0e8bb8635a96809bf8
+
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+com.sun.proxy.$Proxy20.clear(Unknown Source)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement$1.doType(ExtendedWebElement.java:1512)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.executeAction(ExtendedWebElement.java:1306)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.overrideAction(ExtendedWebElement.java:1433)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1406)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:686)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:674)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:664)
+com.solvd.beamplify.GetQuotePage.setOccupationField(GetQuotePage.java:245)
+com.solvd.beamplify.services.IGetAQuoteService.goToMonthlyContributionWithDefaults(IGetAQuoteService.java:49)
+com.solvd.beamplify.tests.BeamplifyDemoTests.verifyCanSelectAnualHousehold(BeamplifyDemoTests.java:48)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2021-12-29 16:16:47 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2021-12-29 16:16:47 Messager [INFO] RESULT #1: TEST [beamplify - verifyCanSelectAnualHousehold] FAIL [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640805362472/5037905a-dcba-4f91-9748-3db9ddbf35f9/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640805362472/5037905a-dcba-4f91-9748-3db9ddbf35f9/test.log]
+2021-12-29 16:28:26 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://beamplify.com/
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2021-12-29 16:28:26 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 16:28:27 Reflections [INFO] Reflections took 615 ms to scan 8 urls, producing 2329 keys and 11332 values 
+2021-12-29 16:28:27 FilterTestsListener [INFO] There are no any rules and limitations
+2021-12-29 16:28:27 CarinaListener [INFO] Set thread-count=1
+2021-12-29 16:28:27 CarinaListener [INFO] Set data-provider-thread-count=1
+2021-12-29 16:28:27 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2021-12-29 16:28:27 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 16:28:27 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 16:28:27 Messager [INFO] TEST [beamplify - verifyCanSelectAnualHousehold] STARTED at [16:28:27 2021-12-29]
+2021-12-29 16:28:29 Messager [INFO] INFO: opening url 'https://beamplify.com/'
+2021-12-29 16:28:36 DriverListener [INFO] URL 'https://beamplify.com/' opened
+2021-12-29 16:28:39 DriverListener [INFO] PASS: element 'getQuoteButton' is clicked.
+2021-12-29 16:28:43 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 16:28:44 DriverListener [ERROR] FAIL: element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not clicked!
+2021-12-29 16:28:47 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not visible...
+2021-12-29 16:28:47 DriverListener [ERROR] FAIL: element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not clicked!
+2021-12-29 16:28:47 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not visible...
+2021-12-29 16:28:47 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 16:28:48 DriverListener [INFO] PASS: keys cleared in element 'dateOfBirthField'.
+2021-12-29 16:28:49 DriverListener [INFO] PASS: keys '07031997' are sent to element 'dateOfBirthField'.
+2021-12-29 16:28:49 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 16:28:50 DriverListener [INFO] PASS: element 'femaleButton' is clicked.
+2021-12-29 16:28:51 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 16:28:51 DriverListener [INFO] PASS: element 'zipCodeField' is clicked.
+2021-12-29 16:28:52 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 16:28:53 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 16:28:53 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 16:28:54 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 16:28:55 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 16:28:55 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 16:28:56 DriverListener [ERROR] FAIL: element 'annualHouseholdAndHeightDropdown (By.xpath: //div[@Class=' css-gg2x63'])' is not clicked!
+2021-12-29 16:28:56 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'annualHouseholdAndHeightDropdown (By.xpath: //div[@Class=' css-gg2x63'])' is not visible...
+2021-12-29 16:28:56 Messager [ERROR] TEST [beamplify - verifyCanSelectAnualHousehold] FAILED at [16:28:56 2021-12-29] - no such element: Unable to locate element: {"method":"css selector","selector":"#react\-select\-4\-option\-3"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MacBook-Pro.local', ip: 'fe80:0:0:0:64:5f9b:55cf:575c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:49849}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9386ae0cdbd58c4dd98afcb95b0ba9af
+*** Element info: {Using=id, value=react-select-4-option-3}
+
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+org.openqa.selenium.remote.RemoteWebDriver.findElementById$original$rjltgNhp(RemoteWebDriver.java:372)
+org.openqa.selenium.remote.RemoteWebDriver.findElementById$original$rjltgNhp$accessor$5quYsW9G(RemoteWebDriver.java)
+org.openqa.selenium.remote.RemoteWebDriver$auxiliary$6xzV9OFO.call(Unknown Source)
+com.zebrunner.agent.core.webdriver.PublicMethodInvocationInterceptor.onPublicMethodInvocation(PublicMethodInvocationInterceptor.java:18)
+org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java)
+org.openqa.selenium.By$ById.findElement(By.java:188)
+org.openqa.selenium.remote.RemoteWebDriver.findElement$original$rjltgNhp(RemoteWebDriver.java:315)
+org.openqa.selenium.remote.RemoteWebDriver.findElement$original$rjltgNhp$accessor$5quYsW9G(RemoteWebDriver.java)
+org.openqa.selenium.remote.RemoteWebDriver$auxiliary$Hheq8e2d.call(Unknown Source)
+com.zebrunner.agent.core.webdriver.PublicMethodInvocationInterceptor.onPublicMethodInvocation(PublicMethodInvocationInterceptor.java:18)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+com.sun.proxy.$Proxy15.findElement(Unknown Source)
+org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+com.solvd.beamplify.GetQuotePage.selectAnnualHouseholdDropdown(GetQuotePage.java:242)
+com.solvd.beamplify.services.IGetAQuoteService.goToMonthlyContributionWithDefaults(IGetAQuoteService.java:48)
+com.solvd.beamplify.tests.BeamplifyDemoTests.verifyCanSelectAnualHousehold(BeamplifyDemoTests.java:48)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2021-12-29 16:28:57 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2021-12-29 16:28:57 Messager [INFO] RESULT #1: TEST [beamplify - verifyCanSelectAnualHousehold] FAIL [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640806106239/295b814d-0c9f-4259-8f0a-69aba59e4b2b/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640806106239/295b814d-0c9f-4259-8f0a-69aba59e4b2b/test.log]
+2021-12-29 16:30:27 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://beamplify.com/
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2021-12-29 16:30:27 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 16:30:28 Reflections [INFO] Reflections took 787 ms to scan 8 urls, producing 2329 keys and 11332 values 
+2021-12-29 16:30:28 FilterTestsListener [INFO] There are no any rules and limitations
+2021-12-29 16:30:28 CarinaListener [INFO] Set thread-count=1
+2021-12-29 16:30:28 CarinaListener [INFO] Set data-provider-thread-count=1
+2021-12-29 16:30:28 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2021-12-29 16:30:28 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 16:30:28 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 16:30:28 Messager [INFO] TEST [beamplify - verifyCanSelectAnualHousehold] STARTED at [16:30:28 2021-12-29]
+2021-12-29 16:30:30 Messager [INFO] INFO: opening url 'https://beamplify.com/'
+2021-12-29 16:30:41 DriverListener [INFO] URL 'https://beamplify.com/' opened
+2021-12-29 16:30:44 DriverListener [INFO] PASS: element 'getQuoteButton' is clicked.
+2021-12-29 16:30:48 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 16:30:48 DriverListener [ERROR] FAIL: element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not clicked!
+2021-12-29 16:30:51 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not visible...
+2021-12-29 16:30:51 DriverListener [ERROR] FAIL: element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not clicked!
+2021-12-29 16:30:52 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not visible...
+2021-12-29 16:30:52 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 16:30:53 DriverListener [INFO] PASS: keys cleared in element 'dateOfBirthField'.
+2021-12-29 16:30:53 DriverListener [INFO] PASS: keys '07031997' are sent to element 'dateOfBirthField'.
+2021-12-29 16:30:54 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 16:30:55 DriverListener [INFO] PASS: element 'femaleButton' is clicked.
+2021-12-29 16:30:55 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 16:30:56 DriverListener [INFO] PASS: element 'zipCodeField' is clicked.
+2021-12-29 16:30:57 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 16:30:57 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 16:30:58 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 16:30:58 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 16:30:59 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 16:31:00 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 16:31:00 DriverListener [INFO] PASS: element 'annualHouseholdAndHeightDropdown' is clicked.
+2021-12-29 16:31:01 DriverListener [ERROR] FAIL: keys not cleared in element 'occupationField (By.xpath: (//div[@class='Input_Input__zKd7A  ']/input)[7])'.
+2021-12-29 16:31:02 DriverListener [ERROR] FAIL: keys not cleared in element 'occupationField (By.xpath: (//div[@class='Input_Input__zKd7A  ']/input)[7])'.
+2021-12-29 16:31:03 Messager [ERROR] TEST [beamplify - verifyCanSelectAnualHousehold] FAILED at [16:31:03 2021-12-29] - element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MacBook-Pro.local', ip: 'fe80:0:0:0:64:5f9b:55cf:575c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:50403}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 46524e328e749b0d2bc7b3cfc022498c
+
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+com.sun.proxy.$Proxy20.clear(Unknown Source)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement$1.doType(ExtendedWebElement.java:1512)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.executeAction(ExtendedWebElement.java:1306)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.overrideAction(ExtendedWebElement.java:1433)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1406)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:686)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:674)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:664)
+com.solvd.beamplify.GetQuotePage.setOccupationField(GetQuotePage.java:247)
+com.solvd.beamplify.services.IGetAQuoteService.goToMonthlyContributionWithDefaults(IGetAQuoteService.java:49)
+com.solvd.beamplify.tests.BeamplifyDemoTests.verifyCanSelectAnualHousehold(BeamplifyDemoTests.java:48)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2021-12-29 16:31:03 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2021-12-29 16:31:03 Messager [INFO] RESULT #1: TEST [beamplify - verifyCanSelectAnualHousehold] FAIL [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640806227839/170c9d64-7f34-448f-8ae8-209a23b8ab8e/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640806227839/170c9d64-7f34-448f-8ae8-209a23b8ab8e/test.log]
+2021-12-29 16:32:11 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://beamplify.com/
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2021-12-29 16:32:11 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 16:32:12 Reflections [INFO] Reflections took 871 ms to scan 8 urls, producing 2329 keys and 11332 values 
+2021-12-29 16:32:12 FilterTestsListener [INFO] There are no any rules and limitations
+2021-12-29 16:32:12 CarinaListener [INFO] Set thread-count=1
+2021-12-29 16:32:12 CarinaListener [INFO] Set data-provider-thread-count=1
+2021-12-29 16:32:12 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2021-12-29 16:32:12 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 16:32:12 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 16:32:12 Messager [INFO] TEST [beamplify - verifyCanSelectAnualHousehold] STARTED at [16:32:12 2021-12-29]
+2021-12-29 16:32:14 Messager [INFO] INFO: opening url 'https://beamplify.com/'
+2021-12-29 16:32:27 DriverListener [INFO] URL 'https://beamplify.com/' opened
+2021-12-29 16:32:29 DriverListener [INFO] PASS: element 'getQuoteButton' is clicked.
+2021-12-29 16:32:35 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 16:32:35 DriverListener [ERROR] FAIL: element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not clicked!
+2021-12-29 16:32:38 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not visible...
+2021-12-29 16:32:38 DriverListener [ERROR] FAIL: element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not clicked!
+2021-12-29 16:32:39 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not visible...
+2021-12-29 16:32:39 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 16:32:40 DriverListener [INFO] PASS: keys cleared in element 'dateOfBirthField'.
+2021-12-29 16:32:40 DriverListener [INFO] PASS: keys '07031997' are sent to element 'dateOfBirthField'.
+2021-12-29 16:32:41 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 16:32:42 DriverListener [INFO] PASS: element 'femaleButton' is clicked.
+2021-12-29 16:32:42 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 16:32:43 DriverListener [INFO] PASS: element 'zipCodeField' is clicked.
+2021-12-29 16:32:44 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 16:32:44 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 16:32:45 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 16:32:45 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 16:32:46 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 16:32:47 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 16:32:47 DriverListener [ERROR] FAIL: element 'annualHouseholdAndHeightDropdown (By.xpath: //div[@Class=' css-gg2x63'])' is not clicked!
+2021-12-29 16:32:48 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'annualHouseholdAndHeightDropdown (By.xpath: //div[@Class=' css-gg2x63'])' is not visible...
+2021-12-29 16:32:48 DriverListener [ERROR] FAIL: keys not cleared in element 'occupationField (By.xpath: (//div[@class='Input_Input__zKd7A  ']/input)[7])'.
+2021-12-29 16:32:49 DriverListener [ERROR] FAIL: keys not cleared in element 'occupationField (By.xpath: (//div[@class='Input_Input__zKd7A  ']/input)[7])'.
+2021-12-29 16:32:50 Messager [ERROR] TEST [beamplify - verifyCanSelectAnualHousehold] FAILED at [16:32:50 2021-12-29] - element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MacBook-Pro.local', ip: 'fe80:0:0:0:64:5f9b:55cf:575c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:50877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ad01bf6c40f66cd88302646f13dadf6
+
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+com.sun.proxy.$Proxy20.clear(Unknown Source)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement$1.doType(ExtendedWebElement.java:1512)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.executeAction(ExtendedWebElement.java:1306)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.overrideAction(ExtendedWebElement.java:1433)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1406)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:686)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:674)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:664)
+com.solvd.beamplify.GetQuotePage.setOccupationField(GetQuotePage.java:247)
+com.solvd.beamplify.services.IGetAQuoteService.goToMonthlyContributionWithDefaults(IGetAQuoteService.java:49)
+com.solvd.beamplify.tests.BeamplifyDemoTests.verifyCanSelectAnualHousehold(BeamplifyDemoTests.java:48)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2021-12-29 16:32:50 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2021-12-29 16:32:50 Messager [INFO] RESULT #1: TEST [beamplify - verifyCanSelectAnualHousehold] FAIL [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640806331553/c4689aa5-7c75-49df-b7db-103413365cb5/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640806331553/c4689aa5-7c75-49df-b7db-103413365cb5/test.log]
+2021-12-29 16:41:15 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://beamplify.com/
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2021-12-29 16:41:16 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 16:41:17 Reflections [INFO] Reflections took 826 ms to scan 8 urls, producing 2329 keys and 11332 values 
+2021-12-29 16:41:17 FilterTestsListener [INFO] There are no any rules and limitations
+2021-12-29 16:41:17 CarinaListener [INFO] Set thread-count=1
+2021-12-29 16:41:17 CarinaListener [INFO] Set data-provider-thread-count=1
+2021-12-29 16:41:17 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2021-12-29 16:41:17 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 16:41:17 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 16:41:17 Messager [INFO] TEST [beamplify - verifyCanSelectAnualHousehold] STARTED at [16:41:17 2021-12-29]
+2021-12-29 16:41:19 Messager [INFO] INFO: opening url 'https://beamplify.com/'
+2021-12-29 16:41:29 DriverListener [INFO] URL 'https://beamplify.com/' opened
+2021-12-29 16:41:32 DriverListener [INFO] PASS: element 'getQuoteButton' is clicked.
+2021-12-29 16:41:36 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 16:41:37 DriverListener [ERROR] FAIL: element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not clicked!
+2021-12-29 16:41:39 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not visible...
+2021-12-29 16:41:39 DriverListener [ERROR] FAIL: element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not clicked!
+2021-12-29 16:41:40 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not visible...
+2021-12-29 16:41:40 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 16:41:41 DriverListener [INFO] PASS: keys cleared in element 'dateOfBirthField'.
+2021-12-29 16:41:41 DriverListener [INFO] PASS: keys '07031997' are sent to element 'dateOfBirthField'.
+2021-12-29 16:41:42 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 16:41:43 DriverListener [INFO] PASS: element 'femaleButton' is clicked.
+2021-12-29 16:41:43 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 16:41:44 DriverListener [INFO] PASS: element 'zipCodeField' is clicked.
+2021-12-29 16:41:45 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 16:41:45 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 16:41:46 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 16:41:47 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 16:41:47 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 16:41:48 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 16:41:48 DriverListener [ERROR] FAIL: element 'annualHouseholdAndHeightDropdown (By.xpath: //div[@Class=' css-gg2x63'])' is not clicked!
+2021-12-29 16:41:49 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'annualHouseholdAndHeightDropdown (By.xpath: //div[@Class=' css-gg2x63'])' is not visible...
+2021-12-29 16:41:49 DriverListener [ERROR] FAIL: keys not cleared in element 'occupationField (By.xpath: (//div[@class='Input_Input__zKd7A  ']/input)[7])'.
+2021-12-29 16:41:50 DriverListener [ERROR] FAIL: keys not cleared in element 'occupationField (By.xpath: (//div[@class='Input_Input__zKd7A  ']/input)[7])'.
+2021-12-29 16:41:51 Messager [ERROR] TEST [beamplify - verifyCanSelectAnualHousehold] FAILED at [16:41:51 2021-12-29] - element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MacBook-Pro.local', ip: 'fe80:0:0:0:64:5f9b:55cf:575c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:53227}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 02e5fb714579927aa817845eacb392d3
+
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+com.sun.proxy.$Proxy20.clear(Unknown Source)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement$1.doType(ExtendedWebElement.java:1512)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.executeAction(ExtendedWebElement.java:1306)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.overrideAction(ExtendedWebElement.java:1433)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1406)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:686)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:674)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:664)
+com.solvd.beamplify.GetQuotePage.setOccupationField(GetQuotePage.java:247)
+com.solvd.beamplify.services.IGetAQuoteService.goToMonthlyContributionWithDefaults(IGetAQuoteService.java:49)
+com.solvd.beamplify.tests.BeamplifyDemoTests.verifyCanSelectAnualHousehold(BeamplifyDemoTests.java:48)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2021-12-29 16:41:51 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2021-12-29 16:41:51 Messager [INFO] RESULT #1: TEST [beamplify - verifyCanSelectAnualHousehold] FAIL [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640806875984/5a493312-8aa9-45a6-8bac-4c83d11de9ea/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640806875984/5a493312-8aa9-45a6-8bac-4c83d11de9ea/test.log]
+2021-12-29 17:02:01 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://beamplify.com/
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2021-12-29 17:02:01 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 17:02:02 Reflections [INFO] Reflections took 922 ms to scan 8 urls, producing 2329 keys and 11332 values 
+2021-12-29 17:02:02 FilterTestsListener [INFO] There are no any rules and limitations
+2021-12-29 17:02:02 CarinaListener [INFO] Set thread-count=1
+2021-12-29 17:02:02 CarinaListener [INFO] Set data-provider-thread-count=1
+2021-12-29 17:02:02 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2021-12-29 17:02:02 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 17:02:02 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 17:02:02 Messager [INFO] TEST [beamplify - verifyCanSelectAnualHousehold] STARTED at [17:02:02 2021-12-29]
+2021-12-29 17:02:04 Messager [INFO] INFO: opening url 'https://beamplify.com/'
+2021-12-29 17:02:14 DriverListener [INFO] URL 'https://beamplify.com/' opened
+2021-12-29 17:02:16 DriverListener [INFO] PASS: element 'getQuoteButton' is clicked.
+2021-12-29 17:02:21 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 17:02:22 DriverListener [ERROR] FAIL: element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not clicked!
+2021-12-29 17:02:25 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not visible...
+2021-12-29 17:02:25 DriverListener [ERROR] FAIL: element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not clicked!
+2021-12-29 17:02:26 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not visible...
+2021-12-29 17:02:26 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 17:02:27 DriverListener [INFO] PASS: keys cleared in element 'dateOfBirthField'.
+2021-12-29 17:02:27 DriverListener [INFO] PASS: keys '07031997' are sent to element 'dateOfBirthField'.
+2021-12-29 17:02:28 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 17:02:29 DriverListener [INFO] PASS: element 'femaleButton' is clicked.
+2021-12-29 17:02:29 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 17:02:30 DriverListener [INFO] PASS: element 'zipCodeField' is clicked.
+2021-12-29 17:02:31 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 17:02:31 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 17:02:32 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 17:02:32 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 17:02:33 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 17:02:34 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 17:02:34 DriverListener [ERROR] FAIL: element 'annualHouseholdAndHeightDropdown (By.xpath: //div[@Class=' css-gg2x63'])' is not clicked!
+2021-12-29 17:02:35 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'annualHouseholdAndHeightDropdown (By.xpath: //div[@Class=' css-gg2x63'])' is not visible...
+2021-12-29 17:02:55 ExtendedWebElement [ERROR] FAIL: click - waitCondition for element 'annualHouseholdValue (By.xpath: //*[contains(text(), '$30,000')])' not satisfied!
+2021-12-29 17:02:56 Messager [ERROR] TEST [beamplify - verifyCanSelectAnualHousehold] FAILED at [17:02:56 2021-12-29] - Unable to detect element: annualHouseholdValue (By.xpath: //*[contains(text(), '$30,000')])
+
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1416)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1363)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:520)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:506)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:497)
+com.solvd.beamplify.GetQuotePage.selectAnnualHouseholdDropdown(GetQuotePage.java:246)
+com.solvd.beamplify.services.IGetAQuoteService.goToMonthlyContributionWithDefaults(IGetAQuoteService.java:48)
+com.solvd.beamplify.tests.BeamplifyDemoTests.verifyCanSelectAnualHousehold(BeamplifyDemoTests.java:48)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2021-12-29 17:02:56 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2021-12-29 17:02:56 Messager [INFO] RESULT #1: TEST [beamplify - verifyCanSelectAnualHousehold] FAIL [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640808121612/70fcd7a4-e623-4436-ba71-bda7a79d20c3/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640808121612/70fcd7a4-e623-4436-ba71-bda7a79d20c3/test.log]
+2021-12-29 17:04:48 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://beamplify.com/
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2021-12-29 17:04:48 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 17:04:49 Reflections [INFO] Reflections took 654 ms to scan 8 urls, producing 2329 keys and 11332 values 
+2021-12-29 17:04:49 FilterTestsListener [INFO] There are no any rules and limitations
+2021-12-29 17:04:49 CarinaListener [INFO] Set thread-count=1
+2021-12-29 17:04:49 CarinaListener [INFO] Set data-provider-thread-count=1
+2021-12-29 17:04:49 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2021-12-29 17:04:49 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 17:04:49 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 17:04:49 Messager [INFO] TEST [beamplify - verifyCanSelectAnualHousehold] STARTED at [17:04:49 2021-12-29]
+2021-12-29 17:04:51 Messager [INFO] INFO: opening url 'https://beamplify.com/'
+2021-12-29 17:05:07 DriverListener [INFO] URL 'https://beamplify.com/' opened
+2021-12-29 17:05:09 DriverListener [INFO] PASS: element 'getQuoteButton' is clicked.
+2021-12-29 17:05:16 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 17:05:17 DriverListener [ERROR] FAIL: element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not clicked!
+2021-12-29 17:05:20 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not visible...
+2021-12-29 17:05:20 DriverListener [ERROR] FAIL: element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not clicked!
+2021-12-29 17:05:20 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not visible...
+2021-12-29 17:05:20 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 17:05:21 DriverListener [INFO] PASS: keys cleared in element 'dateOfBirthField'.
+2021-12-29 17:05:22 DriverListener [INFO] PASS: keys '07031997' are sent to element 'dateOfBirthField'.
+2021-12-29 17:05:23 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 17:05:23 DriverListener [INFO] PASS: element 'femaleButton' is clicked.
+2021-12-29 17:05:24 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 17:05:25 DriverListener [INFO] PASS: element 'zipCodeField' is clicked.
+2021-12-29 17:05:25 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 17:05:26 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 17:05:27 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 17:05:27 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 17:05:28 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 17:05:28 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 17:05:29 DriverListener [ERROR] FAIL: element 'annualHouseholdAndHeightDropdown (By.xpath: //div[@Class=' css-gg2x63'])' is not clicked!
+2021-12-29 17:05:30 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'annualHouseholdAndHeightDropdown (By.xpath: //div[@Class=' css-gg2x63'])' is not visible...
+2021-12-29 17:05:50 ExtendedWebElement [ERROR] FAIL: click - waitCondition for element 'annualHouseholdValue (By.xpath: //*[contains(text(), '$30,000')])' not satisfied!
+2021-12-29 17:05:50 Messager [ERROR] TEST [beamplify - verifyCanSelectAnualHousehold] FAILED at [17:05:50 2021-12-29] - Unable to detect element: annualHouseholdValue (By.xpath: //*[contains(text(), '$30,000')])
+
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1416)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1363)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:520)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:506)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:497)
+com.solvd.beamplify.GetQuotePage.selectAnnualHouseholdDropdown(GetQuotePage.java:247)
+com.solvd.beamplify.services.IGetAQuoteService.goToMonthlyContributionWithDefaults(IGetAQuoteService.java:48)
+com.solvd.beamplify.tests.BeamplifyDemoTests.verifyCanSelectAnualHousehold(BeamplifyDemoTests.java:48)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2021-12-29 17:05:50 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2021-12-29 17:05:50 Messager [INFO] RESULT #1: TEST [beamplify - verifyCanSelectAnualHousehold] FAIL [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640808288712/6ec47e16-4204-4511-8fc7-d1e60bfa0df0/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640808288712/6ec47e16-4204-4511-8fc7-d1e60bfa0df0/test.log]
+2021-12-29 17:06:44 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://beamplify.com/
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2021-12-29 17:06:44 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 17:06:45 Reflections [INFO] Reflections took 763 ms to scan 8 urls, producing 2329 keys and 11332 values 
+2021-12-29 17:06:45 FilterTestsListener [INFO] There are no any rules and limitations
+2021-12-29 17:06:45 CarinaListener [INFO] Set thread-count=1
+2021-12-29 17:06:45 CarinaListener [INFO] Set data-provider-thread-count=1
+2021-12-29 17:06:45 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2021-12-29 17:06:45 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 17:06:45 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 17:06:45 Messager [INFO] TEST [beamplify - verifyCanSelectAnualHousehold] STARTED at [17:06:45 2021-12-29]
+2021-12-29 17:06:47 Messager [INFO] INFO: opening url 'https://beamplify.com/'
+2021-12-29 17:06:56 DriverListener [INFO] URL 'https://beamplify.com/' opened
+2021-12-29 17:06:58 DriverListener [INFO] PASS: element 'getQuoteButton' is clicked.
+2021-12-29 17:07:02 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 17:07:03 DriverListener [ERROR] FAIL: element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not clicked!
+2021-12-29 17:07:05 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not visible...
+2021-12-29 17:07:05 DriverListener [ERROR] FAIL: element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not clicked!
+2021-12-29 17:07:06 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not visible...
+2021-12-29 17:07:06 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 17:07:07 DriverListener [INFO] PASS: keys cleared in element 'dateOfBirthField'.
+2021-12-29 17:07:07 DriverListener [INFO] PASS: keys '07031997' are sent to element 'dateOfBirthField'.
+2021-12-29 17:07:08 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 17:07:09 DriverListener [INFO] PASS: element 'femaleButton' is clicked.
+2021-12-29 17:07:09 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 17:07:10 DriverListener [INFO] PASS: element 'zipCodeField' is clicked.
+2021-12-29 17:07:11 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 17:07:11 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 17:07:12 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 17:07:13 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 17:07:13 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 17:07:14 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 17:07:15 DriverListener [ERROR] FAIL: element 'annualHouseholdAndHeightDropdown (By.xpath: //div[@Class=' css-gg2x63'])' is not clicked!
+2021-12-29 17:07:15 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'annualHouseholdAndHeightDropdown (By.xpath: //div[@Class=' css-gg2x63'])' is not visible...
+2021-12-29 17:07:35 ExtendedWebElement [ERROR] FAIL: click - waitCondition for element 'annualHouseholdValue (By.xpath: //*[contains(text(), '$30,000')])' not satisfied!
+2021-12-29 17:07:36 Messager [ERROR] TEST [beamplify - verifyCanSelectAnualHousehold] FAILED at [17:07:36 2021-12-29] - Unable to detect element: annualHouseholdValue (By.xpath: //*[contains(text(), '$30,000')])
+
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1416)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1363)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:520)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:506)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.click(ExtendedWebElement.java:497)
+com.solvd.beamplify.GetQuotePage.selectAnnualHouseholdDropdown(GetQuotePage.java:246)
+com.solvd.beamplify.services.IGetAQuoteService.goToMonthlyContributionWithDefaults(IGetAQuoteService.java:48)
+com.solvd.beamplify.tests.BeamplifyDemoTests.verifyCanSelectAnualHousehold(BeamplifyDemoTests.java:48)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2021-12-29 17:07:36 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2021-12-29 17:07:36 Messager [INFO] RESULT #1: TEST [beamplify - verifyCanSelectAnualHousehold] FAIL [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640808404254/cb08fe6e-897d-4cb8-aa95-2c6aa70c0fc6/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640808404254/cb08fe6e-897d-4cb8-aa95-2c6aa70c0fc6/test.log]
+2021-12-29 17:09:22 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://beamplify.com/
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2021-12-29 17:09:22 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 17:09:23 Reflections [INFO] Reflections took 921 ms to scan 8 urls, producing 2329 keys and 11332 values 
+2021-12-29 17:09:23 FilterTestsListener [INFO] There are no any rules and limitations
+2021-12-29 17:09:23 CarinaListener [INFO] Set thread-count=1
+2021-12-29 17:09:23 CarinaListener [INFO] Set data-provider-thread-count=1
+2021-12-29 17:09:23 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2021-12-29 17:09:23 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 17:09:23 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 17:09:23 Messager [INFO] TEST [beamplify - verifyCanSelectAnualHousehold] STARTED at [17:09:23 2021-12-29]
+2021-12-29 17:09:25 Messager [INFO] INFO: opening url 'https://beamplify.com/'
+2021-12-29 17:09:38 DriverListener [INFO] URL 'https://beamplify.com/' opened
+2021-12-29 17:09:41 DriverListener [INFO] PASS: element 'getQuoteButton' is clicked.
+2021-12-29 17:09:44 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 17:09:45 DriverListener [ERROR] FAIL: element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not clicked!
+2021-12-29 17:09:48 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not visible...
+2021-12-29 17:09:48 DriverListener [ERROR] FAIL: element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not clicked!
+2021-12-29 17:09:48 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not visible...
+2021-12-29 17:09:48 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 17:09:49 DriverListener [INFO] PASS: keys cleared in element 'dateOfBirthField'.
+2021-12-29 17:09:50 DriverListener [INFO] PASS: keys '07031997' are sent to element 'dateOfBirthField'.
+2021-12-29 17:09:51 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 17:09:51 DriverListener [INFO] PASS: element 'femaleButton' is clicked.
+2021-12-29 17:09:52 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 17:09:53 DriverListener [INFO] PASS: element 'zipCodeField' is clicked.
+2021-12-29 17:09:53 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 17:09:54 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 17:09:55 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 17:09:55 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 17:09:56 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 17:09:56 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 17:09:57 DriverListener [ERROR] FAIL: element 'annualHouseholdAndHeightDropdown (By.xpath: //div[@Class=' css-gg2x63'])' is not clicked!
+2021-12-29 17:09:58 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'annualHouseholdAndHeightDropdown (By.xpath: //div[@Class=' css-gg2x63'])' is not visible...
+2021-12-29 17:09:58 DriverListener [ERROR] FAIL: keys not cleared in element 'occupationField (By.xpath: (//div[@class='Input_Input__zKd7A  ']/input)[7])'.
+2021-12-29 17:09:58 DriverListener [ERROR] FAIL: keys not cleared in element 'occupationField (By.xpath: (//div[@class='Input_Input__zKd7A  ']/input)[7])'.
+2021-12-29 17:10:00 Messager [ERROR] TEST [beamplify - verifyCanSelectAnualHousehold] FAILED at [17:10:00 2021-12-29] - element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MacBook-Pro.local', ip: 'fe80:0:0:0:64:5f9b:55cf:575c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:60508}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a93b9b25023493d2576aad94ccb7a6f1
+
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+com.sun.proxy.$Proxy20.clear(Unknown Source)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement$1.doType(ExtendedWebElement.java:1512)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.executeAction(ExtendedWebElement.java:1306)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.overrideAction(ExtendedWebElement.java:1433)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1406)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:686)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:674)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:664)
+com.solvd.beamplify.GetQuotePage.setOccupationField(GetQuotePage.java:253)
+com.solvd.beamplify.services.IGetAQuoteService.goToMonthlyContributionWithDefaults(IGetAQuoteService.java:49)
+com.solvd.beamplify.tests.BeamplifyDemoTests.verifyCanSelectAnualHousehold(BeamplifyDemoTests.java:48)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2021-12-29 17:10:00 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2021-12-29 17:10:00 Messager [INFO] RESULT #1: TEST [beamplify - verifyCanSelectAnualHousehold] FAIL [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640808562135/354d8b87-4a85-40ff-bccc-df232c75117e/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640808562135/354d8b87-4a85-40ff-bccc-df232c75117e/test.log]
+2021-12-29 17:11:44 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://beamplify.com/
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2021-12-29 17:11:44 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 17:11:45 Reflections [INFO] Reflections took 818 ms to scan 8 urls, producing 2329 keys and 11332 values 
+2021-12-29 17:11:45 FilterTestsListener [INFO] There are no any rules and limitations
+2021-12-29 17:11:45 CarinaListener [INFO] Set thread-count=1
+2021-12-29 17:11:45 CarinaListener [INFO] Set data-provider-thread-count=1
+2021-12-29 17:11:45 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2021-12-29 17:11:45 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 17:11:45 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 17:11:45 Messager [INFO] TEST [beamplify - verifyCanSelectAnualHousehold] STARTED at [17:11:45 2021-12-29]
+2021-12-29 17:11:48 Messager [INFO] INFO: opening url 'https://beamplify.com/'
+2021-12-29 17:12:01 DriverListener [INFO] URL 'https://beamplify.com/' opened
+2021-12-29 17:12:04 DriverListener [INFO] PASS: element 'getQuoteButton' is clicked.
+2021-12-29 17:12:08 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 17:12:09 DriverListener [ERROR] FAIL: element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not clicked!
+2021-12-29 17:12:12 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not visible...
+2021-12-29 17:12:12 DriverListener [ERROR] FAIL: element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not clicked!
+2021-12-29 17:12:12 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not visible...
+2021-12-29 17:12:12 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 17:12:13 DriverListener [INFO] PASS: keys cleared in element 'dateOfBirthField'.
+2021-12-29 17:12:14 DriverListener [INFO] PASS: keys '07031997' are sent to element 'dateOfBirthField'.
+2021-12-29 17:12:14 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 17:12:15 DriverListener [INFO] PASS: element 'femaleButton' is clicked.
+2021-12-29 17:12:16 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 17:12:17 DriverListener [INFO] PASS: element 'zipCodeField' is clicked.
+2021-12-29 17:12:17 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 17:12:18 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 17:12:18 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 17:12:19 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 17:12:20 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 17:12:20 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 17:12:21 DriverListener [ERROR] FAIL: element 'annualHouseholdAndHeightDropdown (By.xpath: //div[@Class=' css-gg2x63'])' is not clicked!
+2021-12-29 17:12:22 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'annualHouseholdAndHeightDropdown (By.xpath: //div[@Class=' css-gg2x63'])' is not visible...
+2021-12-29 17:12:22 DriverListener [ERROR] FAIL: keys not cleared in element 'occupationField (By.xpath: (//div[@class='Input_Input__zKd7A  ']/input)[7])'.
+2021-12-29 17:12:22 DriverListener [ERROR] FAIL: keys not cleared in element 'occupationField (By.xpath: (//div[@class='Input_Input__zKd7A  ']/input)[7])'.
+2021-12-29 17:12:23 Messager [ERROR] TEST [beamplify - verifyCanSelectAnualHousehold] FAILED at [17:12:23 2021-12-29] - element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MacBook-Pro.local', ip: 'fe80:0:0:0:64:5f9b:55cf:575c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:61146}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ca3c8f696d81137e38a38ae91a0df59
+
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+com.sun.proxy.$Proxy20.clear(Unknown Source)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement$1.doType(ExtendedWebElement.java:1512)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.executeAction(ExtendedWebElement.java:1306)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.overrideAction(ExtendedWebElement.java:1433)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1406)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:686)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:674)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:664)
+com.solvd.beamplify.GetQuotePage.setOccupationField(GetQuotePage.java:257)
+com.solvd.beamplify.services.IGetAQuoteService.goToMonthlyContributionWithDefaults(IGetAQuoteService.java:49)
+com.solvd.beamplify.tests.BeamplifyDemoTests.verifyCanSelectAnualHousehold(BeamplifyDemoTests.java:48)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2021-12-29 17:12:23 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2021-12-29 17:12:23 Messager [INFO] RESULT #1: TEST [beamplify - verifyCanSelectAnualHousehold] FAIL [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640808704815/da821413-ffc6-4f2b-80ff-4fdf5da24fb0/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640808704815/da821413-ffc6-4f2b-80ff-4fdf5da24fb0/test.log]
+2021-12-29 18:42:47 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://beamplify.com/
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2021-12-29 18:42:48 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 18:42:49 Reflections [INFO] Reflections took 869 ms to scan 8 urls, producing 2329 keys and 11332 values 
+2021-12-29 18:42:49 FilterTestsListener [INFO] There are no any rules and limitations
+2021-12-29 18:42:49 CarinaListener [INFO] Set thread-count=1
+2021-12-29 18:42:49 CarinaListener [INFO] Set data-provider-thread-count=1
+2021-12-29 18:42:49 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2021-12-29 18:42:49 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 18:42:49 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2021-12-29 18:42:49 Messager [INFO] TEST [beamplify - verifyCanChoseComfortableAmount] STARTED at [18:42:49 2021-12-29]
+2021-12-29 18:42:51 Messager [INFO] INFO: opening url 'https://beamplify.com/'
+2021-12-29 18:43:02 DriverListener [INFO] URL 'https://beamplify.com/' opened
+2021-12-29 18:43:04 DriverListener [INFO] PASS: element 'getQuoteButton' is clicked.
+2021-12-29 18:43:08 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 18:43:09 DriverListener [ERROR] FAIL: element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not clicked!
+2021-12-29 18:43:12 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'payOffMyDebtsCheckbox (By.xpath: (//input[@type='checkbox'])[2])' is not visible...
+2021-12-29 18:43:12 DriverListener [ERROR] FAIL: element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not clicked!
+2021-12-29 18:43:12 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'leaveAnInheritanceCheckbox (By.xpath: (//input[@type='checkbox'])[3])' is not visible...
+2021-12-29 18:43:13 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 18:43:13 DriverListener [INFO] PASS: keys cleared in element 'dateOfBirthField'.
+2021-12-29 18:43:14 DriverListener [INFO] PASS: keys '07031997' are sent to element 'dateOfBirthField'.
+2021-12-29 18:43:15 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 18:43:15 DriverListener [INFO] PASS: element 'femaleButton' is clicked.
+2021-12-29 18:43:16 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 18:43:17 DriverListener [INFO] PASS: element 'zipCodeField' is clicked.
+2021-12-29 18:43:17 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 18:43:18 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 18:43:19 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 18:43:19 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 18:43:20 DriverListener [INFO] PASS: keys '' are sent to element 'zipCodeField'.
+2021-12-29 18:43:21 DriverListener [INFO] PASS: element 'nextButton' is clicked.
+2021-12-29 18:43:21 DriverListener [ERROR] FAIL: element 'annualHouseholdAndHeightDropdown (By.xpath: //div[@Class=' css-gg2x63'])' is not clicked!
+2021-12-29 18:43:22 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'annualHouseholdAndHeightDropdown (By.xpath: //div[@Class=' css-gg2x63'])' is not visible...
+2021-12-29 18:43:22 DriverListener [ERROR] FAIL: keys not cleared in element 'occupationField (By.xpath: (//div[@class='Input_Input__zKd7A  ']/input)[7])'.
+2021-12-29 18:43:23 DriverListener [ERROR] FAIL: keys not cleared in element 'occupationField (By.xpath: (//div[@class='Input_Input__zKd7A  ']/input)[7])'.
+2021-12-29 18:43:24 Messager [ERROR] TEST [beamplify - verifyCanChoseComfortableAmount] FAILED at [18:43:24 2021-12-29] - element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MacBook-Pro.local', ip: 'fe80:0:0:0:64:5f9b:55cf:575c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:65397}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bdd2e25b689b85cfd111b565305ef8e6
+
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+com.sun.proxy.$Proxy20.clear(Unknown Source)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement$1.doType(ExtendedWebElement.java:1512)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.executeAction(ExtendedWebElement.java:1306)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.overrideAction(ExtendedWebElement.java:1433)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1406)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:686)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:674)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:664)
+com.solvd.beamplify.GetQuotePage.setOccupationField(GetQuotePage.java:257)
+com.solvd.beamplify.services.IGetAQuoteService.goToMonthlyContributionWithDefaults(IGetAQuoteService.java:49)
+com.solvd.beamplify.services.IGetAQuoteService.goToBodyParametersWithDefaults(IGetAQuoteService.java:55)
+com.solvd.beamplify.tests.BeamplifyDemoTests.verifyCanChoseComfortableAmount(BeamplifyDemoTests.java:56)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2021-12-29 18:43:24 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2021-12-29 18:43:24 Messager [INFO] RESULT #1: TEST [beamplify - verifyCanChoseComfortableAmount] FAIL [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640814167970/be0196bc-640c-4000-aeed-8cf83faf9513/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1640814167970/be0196bc-640c-4000-aeed-8cf83faf9513/test.log]

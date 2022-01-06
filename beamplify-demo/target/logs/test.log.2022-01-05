@@ -1,0 +1,2027 @@
+2022-01-05 20:59:12 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://beamplify.com/
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-05 20:59:12 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 20:59:12 Reflections [INFO] Reflections took 587 ms to scan 8 urls, producing 2329 keys and 11333 values 
+2022-01-05 20:59:12 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-05 20:59:12 CarinaListener [INFO] Set thread-count=1
+2022-01-05 20:59:12 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-05 20:59:12 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-05 20:59:12 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 20:59:12 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 20:59:12 Messager [INFO] TEST [beamplify - invalidEmailSignUp] STARTED at [20:59:12 2022-01-05]
+2022-01-05 20:59:15 Messager [INFO] INFO: opening url 'https://beamplify.com/'
+2022-01-05 20:59:24 DriverListener [INFO] URL 'https://beamplify.com/' opened
+2022-01-05 20:59:47 Messager [INFO] TEST [beamplify - invalidEmailSignUp] PASSED at [20:59:47 2022-01-05]
+2022-01-05 20:59:47 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-05 20:59:47 Messager [INFO] RESULT #1: TEST [beamplify - invalidEmailSignUp] PASS [log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641427152070/ed679040-0615-4e6a-a9bd-492559f5bef3/test.log]
+2022-01-05 21:01:21 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-05 21:01:21 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 21:01:22 Reflections [INFO] Reflections took 839 ms to scan 8 urls, producing 2329 keys and 11333 values 
+2022-01-05 21:01:22 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-05 21:01:22 CarinaListener [INFO] Set thread-count=1
+2022-01-05 21:01:22 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-05 21:01:22 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-05 21:01:22 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 21:01:22 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 21:01:22 Messager [INFO] TEST [beamplify - invalidEmailSignUp] STARTED at [21:01:22 2022-01-05]
+2022-01-05 21:01:24 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-05 21:01:37 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-05 21:01:40 DriverListener [INFO] PASS: element 'signUpButton' is clicked.
+2022-01-05 21:01:41 Messager [INFO] TEST [beamplify - invalidEmailSignUp] PASSED at [21:01:41 2022-01-05]
+2022-01-05 21:01:41 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-05 21:01:41 Messager [INFO] RESULT #1: TEST [beamplify - invalidEmailSignUp] PASS [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641427281322/035d8475-a0d9-4e9d-9d94-cfe3bc93a5a8/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641427281322/035d8475-a0d9-4e9d-9d94-cfe3bc93a5a8/test.log]
+2022-01-05 21:13:01 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-05 21:13:01 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 21:13:02 Reflections [INFO] Reflections took 752 ms to scan 8 urls, producing 2329 keys and 11333 values 
+2022-01-05 21:13:02 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-05 21:13:02 CarinaListener [INFO] Set thread-count=1
+2022-01-05 21:13:02 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-05 21:13:02 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-05 21:13:02 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 21:13:02 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 21:13:02 Messager [INFO] TEST [beamplify - invalidEmailSignUp] STARTED at [21:13:02 2022-01-05]
+2022-01-05 21:13:04 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-05 21:13:18 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-05 21:13:21 DriverListener [INFO] PASS: element 'signUpButton' is clicked.
+2022-01-05 21:13:23 DriverListener [ERROR] invalid selector: Unable to locate an element with the xpath expression //div[class'normal-text res-error']//p because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[class'normal-text res-error']//p' is not a valid XPath expression.
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MBP', ip: 'fe80:0:0:0:8cd:5:eb2d:494a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:62990}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 588e466c3fe14a2350a16013164dfb7a
+*** Element info: {Using=xpath, value=//div[class'normal-text res-error']//p}
+2022-01-05 21:13:29 Screenshot [ERROR] Unable to capture full screenshot during 6sec!
+2022-01-05 21:13:29 DriverListener [ERROR] invalid selector: Unable to locate an element with the xpath expression //div[class'normal-text res-error']//p because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[class'normal-text res-error']//p' is not a valid XPath expression.
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MBP', ip: 'fe80:0:0:0:8cd:5:eb2d:494a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:62990}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 588e466c3fe14a2350a16013164dfb7a
+*** Element info: {Using=xpath, value=//div[class'normal-text res-error']//p}
+2022-01-05 21:13:31 DriverListener [ERROR] invalid selector: Unable to locate an element with the xpath expression //div[class'normal-text res-error']//p because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[class'normal-text res-error']//p' is not a valid XPath expression.
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MBP', ip: 'fe80:0:0:0:8cd:5:eb2d:494a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:62990}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 588e466c3fe14a2350a16013164dfb7a
+*** Element info: {Using=xpath, value=//div[class'normal-text res-error']//p}
+2022-01-05 21:13:33 DriverListener [ERROR] invalid selector: Unable to locate an element with the xpath expression //div[class'normal-text res-error']//p because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[class'normal-text res-error']//p' is not a valid XPath expression.
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MBP', ip: 'fe80:0:0:0:8cd:5:eb2d:494a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:62990}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 588e466c3fe14a2350a16013164dfb7a
+*** Element info: {Using=xpath, value=//div[class'normal-text res-error']//p}
+2022-01-05 21:13:35 DriverListener [ERROR] invalid selector: Unable to locate an element with the xpath expression //div[class'normal-text res-error']//p because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[class'normal-text res-error']//p' is not a valid XPath expression.
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MBP', ip: 'fe80:0:0:0:8cd:5:eb2d:494a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:62990}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 588e466c3fe14a2350a16013164dfb7a
+*** Element info: {Using=xpath, value=//div[class'normal-text res-error']//p}
+2022-01-05 21:13:37 DriverListener [ERROR] invalid selector: Unable to locate an element with the xpath expression //div[class'normal-text res-error']//p because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[class'normal-text res-error']//p' is not a valid XPath expression.
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MBP', ip: 'fe80:0:0:0:8cd:5:eb2d:494a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:62990}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 588e466c3fe14a2350a16013164dfb7a
+*** Element info: {Using=xpath, value=//div[class'normal-text res-error']//p}
+2022-01-05 21:13:39 DriverListener [ERROR] invalid selector: Unable to locate an element with the xpath expression //div[class'normal-text res-error']//p because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[class'normal-text res-error']//p' is not a valid XPath expression.
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MBP', ip: 'fe80:0:0:0:8cd:5:eb2d:494a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:62990}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 588e466c3fe14a2350a16013164dfb7a
+*** Element info: {Using=xpath, value=//div[class'normal-text res-error']//p}
+2022-01-05 21:13:40 DriverListener [ERROR] invalid selector: Unable to locate an element with the xpath expression //div[class'normal-text res-error']//p because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[class'normal-text res-error']//p' is not a valid XPath expression.
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MBP', ip: 'fe80:0:0:0:8cd:5:eb2d:494a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:62990}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 588e466c3fe14a2350a16013164dfb7a
+*** Element info: {Using=xpath, value=//div[class'normal-text res-error']//p}
+2022-01-05 21:13:42 DriverListener [ERROR] invalid selector: Unable to locate an element with the xpath expression //div[class'normal-text res-error']//p because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[class'normal-text res-error']//p' is not a valid XPath expression.
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MBP', ip: 'fe80:0:0:0:8cd:5:eb2d:494a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:62990}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 588e466c3fe14a2350a16013164dfb7a
+*** Element info: {Using=xpath, value=//div[class'normal-text res-error']//p}
+2022-01-05 21:13:44 DriverListener [ERROR] invalid selector: Unable to locate an element with the xpath expression //div[class'normal-text res-error']//p because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[class'normal-text res-error']//p' is not a valid XPath expression.
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MBP', ip: 'fe80:0:0:0:8cd:5:eb2d:494a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:62990}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 588e466c3fe14a2350a16013164dfb7a
+*** Element info: {Using=xpath, value=//div[class'normal-text res-error']//p}
+2022-01-05 21:13:46 DriverListener [ERROR] invalid selector: Unable to locate an element with the xpath expression //div[class'normal-text res-error']//p because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[class'normal-text res-error']//p' is not a valid XPath expression.
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MBP', ip: 'fe80:0:0:0:8cd:5:eb2d:494a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:62990}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 588e466c3fe14a2350a16013164dfb7a
+*** Element info: {Using=xpath, value=//div[class'normal-text res-error']//p}
+2022-01-05 21:13:48 DriverListener [ERROR] invalid selector: Unable to locate an element with the xpath expression //div[class'normal-text res-error']//p because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[class'normal-text res-error']//p' is not a valid XPath expression.
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MBP', ip: 'fe80:0:0:0:8cd:5:eb2d:494a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:62990}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 588e466c3fe14a2350a16013164dfb7a
+*** Element info: {Using=xpath, value=//div[class'normal-text res-error']//p}
+2022-01-05 21:13:50 ExtendedWebElement [ERROR] FAIL: get_text - waitCondition for element 'errorMessage (By.xpath: //div[class'normal-text res-error']//p)' not satisfied!
+2022-01-05 21:13:50 DriverListener [ERROR] invalid selector: Unable to locate an element with the xpath expression //div[class'normal-text res-error']//p because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[class'normal-text res-error']//p' is not a valid XPath expression.
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MBP', ip: 'fe80:0:0:0:8cd:5:eb2d:494a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:62990}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 588e466c3fe14a2350a16013164dfb7a
+*** Element info: {Using=xpath, value=//div[class'normal-text res-error']//p}
+2022-01-05 21:13:52 DriverListener [ERROR] invalid selector: Unable to locate an element with the xpath expression //div[class'normal-text res-error']//p because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[class'normal-text res-error']//p' is not a valid XPath expression.
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MBP', ip: 'fe80:0:0:0:8cd:5:eb2d:494a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:62990}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 588e466c3fe14a2350a16013164dfb7a
+*** Element info: {Using=xpath, value=//div[class'normal-text res-error']//p}
+2022-01-05 21:13:54 DriverListener [ERROR] invalid selector: Unable to locate an element with the xpath expression //div[class'normal-text res-error']//p because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[class'normal-text res-error']//p' is not a valid XPath expression.
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MBP', ip: 'fe80:0:0:0:8cd:5:eb2d:494a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:62990}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 588e466c3fe14a2350a16013164dfb7a
+*** Element info: {Using=xpath, value=//div[class'normal-text res-error']//p}
+2022-01-05 21:13:58 Messager [ERROR] TEST [beamplify - invalidEmailSignUp] FAILED at [21:13:58 2022-01-05] - Unable to detect element: errorMessage (By.xpath: //div[class'normal-text res-error']//p)
+
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1416)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1363)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.getText(ExtendedWebElement.java:462)
+com.solvd.beamplify.CreateAccountPage.getErrorMessage(CreateAccountPage.java:58)
+com.solvd.beamplify.tests.BaseTest.invalidEmailSignUp(BaseTest.java:14)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-01-05 21:13:58 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-05 21:13:58 Messager [INFO] RESULT #1: TEST [beamplify - invalidEmailSignUp] FAIL [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641427981569/69aee122-593b-48a7-b64a-0a2263cc6011/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641427981569/69aee122-593b-48a7-b64a-0a2263cc6011/test.log]
+2022-01-05 21:15:07 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-05 21:15:07 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 21:15:08 Reflections [INFO] Reflections took 708 ms to scan 8 urls, producing 2329 keys and 11333 values 
+2022-01-05 21:15:08 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-05 21:15:08 CarinaListener [INFO] Set thread-count=1
+2022-01-05 21:15:08 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-05 21:15:08 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-05 21:15:08 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 21:15:08 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 21:15:08 Messager [INFO] TEST [beamplify - invalidEmailSignUp] STARTED at [21:15:08 2022-01-05]
+2022-01-05 21:15:10 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-05 21:15:23 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-05 21:15:26 DriverListener [INFO] PASS: element 'signUpButton' is clicked.
+2022-01-05 21:15:27 Messager [INFO] TEST [beamplify - invalidEmailSignUp] PASSED at [21:15:27 2022-01-05]
+2022-01-05 21:15:27 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-05 21:15:27 Messager [INFO] RESULT #1: TEST [beamplify - invalidEmailSignUp] PASS [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641428107366/788f3492-868b-46d8-8ea0-5a1e00988fe4/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641428107366/788f3492-868b-46d8-8ea0-5a1e00988fe4/test.log]
+2022-01-05 21:18:22 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-05 21:18:22 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 21:18:23 Reflections [INFO] Reflections took 723 ms to scan 8 urls, producing 2329 keys and 11333 values 
+2022-01-05 21:18:23 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-05 21:18:23 CarinaListener [INFO] Set thread-count=1
+2022-01-05 21:18:23 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-05 21:18:23 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-05 21:18:23 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 21:18:23 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 21:18:23 Messager [INFO] TEST [beamplify - invalidEmailSignUp] STARTED at [21:18:23 2022-01-05]
+2022-01-05 21:18:25 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-05 21:18:45 DriverHelper [ERROR] Unable to open url during 20sec!
+2022-01-05 21:18:51 IDriverPool [ERROR] Unable to quit driver for 6sec!
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.quitDriver(IDriverPool.java:316)
+	at com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.quitDrivers(IDriverPool.java:263)
+	at com.qaprosoft.carina.core.foundation.listeners.CarinaListener.onTestFinish(CarinaListener.java:372)
+	at com.qaprosoft.carina.core.foundation.listeners.CarinaListener.onTestFailure(CarinaListener.java:326)
+	at com.nordstrom.automation.testng.ListenerChain.onTestFailure(ListenerChain.java:395)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:96)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:656)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-01-05 21:18:51 Messager [ERROR] TEST [beamplify - invalidEmailSignUp] FAILED at [21:18:51 2022-01-05] - Unable to open url during 20sec!
+
+org.testng.Assert.fail(Assert.java:87)
+com.qaprosoft.carina.core.foundation.webdriver.DriverHelper.openURL(DriverHelper.java:167)
+com.qaprosoft.carina.core.foundation.webdriver.DriverHelper.openURL(DriverHelper.java:130)
+com.qaprosoft.carina.core.foundation.webdriver.DriverHelper.open(DriverHelper.java:120)
+com.solvd.beamplify.HomePage.<init>(HomePage.java:25)
+com.solvd.beamplify.services.SignUpService.goToSignUp(SignUpService.java:10)
+com.solvd.beamplify.services.SignUpService.invalidEmailSignUp(SignUpService.java:14)
+com.solvd.beamplify.tests.BaseTest.invalidEmailSignUp(BaseTest.java:13)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-01-05 21:18:51 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-05 21:18:51 Messager [INFO] RESULT #1: TEST [beamplify - invalidEmailSignUp] FAIL [log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641428302120/f67a905e-eed0-48e8-bd0a-ad1dd53a071a/test.log]
+2022-01-05 21:19:30 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-05 21:19:30 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 21:19:31 Reflections [INFO] Reflections took 764 ms to scan 8 urls, producing 2329 keys and 11333 values 
+2022-01-05 21:19:31 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-05 21:19:31 CarinaListener [INFO] Set thread-count=1
+2022-01-05 21:19:31 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-05 21:19:31 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-05 21:19:31 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 21:19:31 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 21:19:31 Messager [INFO] TEST [beamplify - invalidEmailSignUp] STARTED at [21:19:31 2022-01-05]
+2022-01-05 21:19:34 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-05 21:19:54 DriverHelper [ERROR] Unable to open url during 20sec!
+2022-01-05 21:19:56 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-05 21:19:57 Messager [ERROR] TEST [beamplify - invalidEmailSignUp] FAILED at [21:19:57 2022-01-05] - Unable to open url during 20sec!
+
+org.testng.Assert.fail(Assert.java:87)
+com.qaprosoft.carina.core.foundation.webdriver.DriverHelper.openURL(DriverHelper.java:167)
+com.qaprosoft.carina.core.foundation.webdriver.DriverHelper.openURL(DriverHelper.java:130)
+com.qaprosoft.carina.core.foundation.webdriver.DriverHelper.open(DriverHelper.java:120)
+com.solvd.beamplify.HomePage.<init>(HomePage.java:25)
+com.solvd.beamplify.services.SignUpService.goToSignUp(SignUpService.java:10)
+com.solvd.beamplify.services.SignUpService.invalidEmailSignUp(SignUpService.java:14)
+com.solvd.beamplify.tests.BaseTest.invalidEmailSignUp(BaseTest.java:13)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-01-05 21:19:57 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-05 21:19:57 Messager [INFO] RESULT #1: TEST [beamplify - invalidEmailSignUp] FAIL [log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641428370512/747114fb-0e92-4283-b9a7-e20d4478eafe/test.log]
+2022-01-05 21:20:13 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-05 21:20:13 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 21:20:14 Reflections [INFO] Reflections took 818 ms to scan 8 urls, producing 2329 keys and 11333 values 
+2022-01-05 21:20:14 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-05 21:20:14 CarinaListener [INFO] Set thread-count=1
+2022-01-05 21:20:14 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-05 21:20:14 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-05 21:20:14 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 21:20:14 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 21:20:14 Messager [INFO] TEST [beamplify - invalidEmailSignUp] STARTED at [21:20:14 2022-01-05]
+2022-01-05 21:20:17 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-05 21:20:35 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-05 21:20:37 DriverHelper [ERROR] Unable to open url during 20sec!
+2022-01-05 21:20:37 Messager [ERROR] TEST [beamplify - invalidEmailSignUp] FAILED at [21:20:37 2022-01-05] - Unable to open url during 20sec!
+
+org.testng.Assert.fail(Assert.java:87)
+com.qaprosoft.carina.core.foundation.webdriver.DriverHelper.openURL(DriverHelper.java:167)
+com.qaprosoft.carina.core.foundation.webdriver.DriverHelper.openURL(DriverHelper.java:130)
+com.qaprosoft.carina.core.foundation.webdriver.DriverHelper.open(DriverHelper.java:120)
+com.solvd.beamplify.HomePage.<init>(HomePage.java:25)
+com.solvd.beamplify.services.SignUpService.goToSignUp(SignUpService.java:10)
+com.solvd.beamplify.services.SignUpService.invalidEmailSignUp(SignUpService.java:14)
+com.solvd.beamplify.tests.BaseTest.invalidEmailSignUp(BaseTest.java:13)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-01-05 21:20:37 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-05 21:20:37 Messager [INFO] RESULT #1: TEST [beamplify - invalidEmailSignUp] FAIL [log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641428413761/ed34e465-03cd-491f-b08a-b2419bf49318/test.log]
+2022-01-05 21:28:15 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-05 21:28:16 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 21:28:16 Reflections [INFO] Reflections took 833 ms to scan 8 urls, producing 2329 keys and 11333 values 
+2022-01-05 21:28:16 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-05 21:28:16 CarinaListener [INFO] Set thread-count=1
+2022-01-05 21:28:16 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-05 21:28:16 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-05 21:28:16 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 21:28:17 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 21:28:17 Messager [INFO] TEST [beamplify - invalidEmailSignUp] STARTED at [21:28:17 2022-01-05]
+2022-01-05 21:28:19 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-05 21:28:36 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-05 21:28:48 DriverListener [INFO] PASS: element 'signUpButton' is clicked.
+2022-01-05 21:28:49 DriverListener [INFO] PASS: keys cleared in element 'yourNicknameField'.
+2022-01-05 21:28:50 DriverListener [INFO] PASS: keys 'RydiaOM' are sent to element 'yourNicknameField'.
+2022-01-05 21:28:51 DriverListener [INFO] PASS: keys cleared in element 'yourEmailField'.
+2022-01-05 21:28:52 DriverListener [INFO] PASS: keys 'ricardo@a' are sent to element 'yourEmailField'.
+2022-01-05 21:28:54 DriverListener [ERROR] FAIL: keys not cleared in element 'yourPasswordField (By.xpath: //input[@id= 'upass' and @type= 'password'])'.
+2022-01-05 21:28:59 DriverListener [ERROR] FAIL: keys not cleared in element 'yourPasswordField (By.xpath: //input[@id= 'upass' and @type= 'password'])'.
+2022-01-05 21:29:03 Messager [ERROR] TEST [beamplify - invalidEmailSignUp] FAILED at [21:29:03 2022-01-05] - element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MacBook-Pro.local', ip: 'fe80:0:0:0:8cd:5:eb2d:494a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:52591}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ea27d742b218d9cc187aa7f6d86f43e1
+
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+com.sun.proxy.$Proxy20.clear(Unknown Source)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement$1.doType(ExtendedWebElement.java:1512)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.executeAction(ExtendedWebElement.java:1306)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.overrideAction(ExtendedWebElement.java:1433)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1406)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:686)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:674)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:664)
+com.solvd.beamplify.CreateAccountPage.setYourPasswordField(CreateAccountPage.java:46)
+com.solvd.beamplify.services.SignUpService.invalidEmailSignUp(SignUpService.java:17)
+com.solvd.beamplify.tests.BaseTest.invalidEmailSignUp(BaseTest.java:13)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-01-05 21:29:03 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-05 21:29:03 Messager [INFO] RESULT #1: TEST [beamplify - invalidEmailSignUp] FAIL [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641428895884/e949e5e2-b6e1-40a8-874f-d3388111691d/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641428895884/e949e5e2-b6e1-40a8-874f-d3388111691d/test.log]
+2022-01-05 21:31:12 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-05 21:31:13 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 21:31:13 Reflections [INFO] Reflections took 711 ms to scan 8 urls, producing 2329 keys and 11333 values 
+2022-01-05 21:31:13 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-05 21:31:13 CarinaListener [INFO] Set thread-count=1
+2022-01-05 21:31:13 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-05 21:31:14 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-05 21:31:14 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 21:31:14 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 21:31:14 Messager [INFO] TEST [beamplify - invalidEmailSignUp] STARTED at [21:31:14 2022-01-05]
+2022-01-05 21:31:16 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-05 21:31:30 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-05 21:31:34 DriverListener [INFO] PASS: element 'signUpButton' is clicked.
+2022-01-05 21:31:36 DriverListener [INFO] PASS: keys cleared in element 'yourNicknameField'.
+2022-01-05 21:31:37 DriverListener [INFO] PASS: keys 'RydiaOM' are sent to element 'yourNicknameField'.
+2022-01-05 21:31:38 DriverListener [INFO] PASS: keys cleared in element 'yourEmailField'.
+2022-01-05 21:31:39 DriverListener [INFO] PASS: keys 'ricardo@a' are sent to element 'yourEmailField'.
+2022-01-05 21:31:41 DriverListener [ERROR] FAIL: keys not cleared in element 'yourPasswordField (By.xpath: (//input[@id='upass' and @type= 'password']))'.
+2022-01-05 21:31:46 DriverListener [ERROR] FAIL: keys not cleared in element 'yourPasswordField (By.xpath: (//input[@id='upass' and @type= 'password']))'.
+2022-01-05 21:31:49 Messager [ERROR] TEST [beamplify - invalidEmailSignUp] FAILED at [21:31:49 2022-01-05] - element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MacBook-Pro.local', ip: 'fe80:0:0:0:8cd:5:eb2d:494a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:53710}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1bb7a2317569dc736b1b20d5bfb10694
+
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+com.sun.proxy.$Proxy20.clear(Unknown Source)
+org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement$1.doType(ExtendedWebElement.java:1512)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.executeAction(ExtendedWebElement.java:1306)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.overrideAction(ExtendedWebElement.java:1433)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1406)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:686)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:674)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:664)
+com.solvd.beamplify.CreateAccountPage.setYourPasswordField(CreateAccountPage.java:46)
+com.solvd.beamplify.services.SignUpService.invalidEmailSignUp(SignUpService.java:17)
+com.solvd.beamplify.tests.BaseTest.invalidEmailSignUp(BaseTest.java:13)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-01-05 21:31:49 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-05 21:31:49 Messager [INFO] RESULT #1: TEST [beamplify - invalidEmailSignUp] FAIL [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641429072990/f3631114-e8c1-40ad-a8c4-ee42fd60acd1/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641429072990/f3631114-e8c1-40ad-a8c4-ee42fd60acd1/test.log]
+2022-01-05 21:36:47 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-05 21:36:47 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 21:36:48 Reflections [INFO] Reflections took 838 ms to scan 8 urls, producing 2329 keys and 11333 values 
+2022-01-05 21:36:48 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-05 21:36:48 CarinaListener [INFO] Set thread-count=1
+2022-01-05 21:36:48 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-05 21:36:48 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-05 21:36:48 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 21:36:48 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 21:36:48 Messager [INFO] TEST [beamplify - invalidEmailSignUp] STARTED at [21:36:48 2022-01-05]
+2022-01-05 21:36:50 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-05 21:37:04 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-05 21:37:08 DriverListener [INFO] PASS: element 'signUpButton' is clicked.
+2022-01-05 21:37:10 DriverListener [INFO] PASS: keys cleared in element 'yourNicknameField'.
+2022-01-05 21:37:11 DriverListener [INFO] PASS: keys 'RydiaOM' are sent to element 'yourNicknameField'.
+2022-01-05 21:37:13 DriverListener [ERROR] invalid selector: Unable to locate an element with the xpath expression (/html/body/div[@id='wrapper']/div[@id='outer']/div[@id='body']/div[@class='main main-review l-box col float-right']/div[@id='user-submit']/form[@id='frmOpin']/fieldset[@id='udata-f']/input[@id='email'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(/html/body/div[@id='wrapper']/div[@id='outer']/div[@id='body']/div[@class='main main-review l-box col float-right']/div[@id='user-submit']/form[@id='frmOpin']/fieldset[@id='udata-f']/input[@id='email']' is not a valid XPath expression.
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MacBook-Pro.local', ip: 'fe80:0:0:0:8cd:5:eb2d:494a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:55433}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 423b30dd1393e2df692cf9cf4273b478
+*** Element info: {Using=xpath, value=(/html/body/div[@id='wrapper']/div[@id='outer']/div[@id='body']/div[@class='main main-review l-box col float-right']/div[@id='user-submit']/form[@id='frmOpin']/fieldset[@id='udata-f']/input[@id='email']}
+2022-01-05 21:37:18 DriverListener [ERROR] invalid selector: Unable to locate an element with the xpath expression (/html/body/div[@id='wrapper']/div[@id='outer']/div[@id='body']/div[@class='main main-review l-box col float-right']/div[@id='user-submit']/form[@id='frmOpin']/fieldset[@id='udata-f']/input[@id='email'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(/html/body/div[@id='wrapper']/div[@id='outer']/div[@id='body']/div[@class='main main-review l-box col float-right']/div[@id='user-submit']/form[@id='frmOpin']/fieldset[@id='udata-f']/input[@id='email']' is not a valid XPath expression.
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MacBook-Pro.local', ip: 'fe80:0:0:0:8cd:5:eb2d:494a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:55433}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 423b30dd1393e2df692cf9cf4273b478
+*** Element info: {Using=xpath, value=(/html/body/div[@id='wrapper']/div[@id='outer']/div[@id='body']/div[@class='main main-review l-box col float-right']/div[@id='user-submit']/form[@id='frmOpin']/fieldset[@id='udata-f']/input[@id='email']}
+2022-01-05 21:37:20 DriverListener [ERROR] invalid selector: Unable to locate an element with the xpath expression (/html/body/div[@id='wrapper']/div[@id='outer']/div[@id='body']/div[@class='main main-review l-box col float-right']/div[@id='user-submit']/form[@id='frmOpin']/fieldset[@id='udata-f']/input[@id='email'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(/html/body/div[@id='wrapper']/div[@id='outer']/div[@id='body']/div[@class='main main-review l-box col float-right']/div[@id='user-submit']/form[@id='frmOpin']/fieldset[@id='udata-f']/input[@id='email']' is not a valid XPath expression.
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MacBook-Pro.local', ip: 'fe80:0:0:0:8cd:5:eb2d:494a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:55433}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 423b30dd1393e2df692cf9cf4273b478
+*** Element info: {Using=xpath, value=(/html/body/div[@id='wrapper']/div[@id='outer']/div[@id='body']/div[@class='main main-review l-box col float-right']/div[@id='user-submit']/form[@id='frmOpin']/fieldset[@id='udata-f']/input[@id='email']}
+2022-01-05 21:37:21 DriverListener [ERROR] invalid selector: Unable to locate an element with the xpath expression (/html/body/div[@id='wrapper']/div[@id='outer']/div[@id='body']/div[@class='main main-review l-box col float-right']/div[@id='user-submit']/form[@id='frmOpin']/fieldset[@id='udata-f']/input[@id='email'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(/html/body/div[@id='wrapper']/div[@id='outer']/div[@id='body']/div[@class='main main-review l-box col float-right']/div[@id='user-submit']/form[@id='frmOpin']/fieldset[@id='udata-f']/input[@id='email']' is not a valid XPath expression.
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MacBook-Pro.local', ip: 'fe80:0:0:0:8cd:5:eb2d:494a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:55433}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 423b30dd1393e2df692cf9cf4273b478
+*** Element info: {Using=xpath, value=(/html/body/div[@id='wrapper']/div[@id='outer']/div[@id='body']/div[@class='main main-review l-box col float-right']/div[@id='user-submit']/form[@id='frmOpin']/fieldset[@id='udata-f']/input[@id='email']}
+2022-01-05 21:37:23 DriverListener [ERROR] invalid selector: Unable to locate an element with the xpath expression (/html/body/div[@id='wrapper']/div[@id='outer']/div[@id='body']/div[@class='main main-review l-box col float-right']/div[@id='user-submit']/form[@id='frmOpin']/fieldset[@id='udata-f']/input[@id='email'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(/html/body/div[@id='wrapper']/div[@id='outer']/div[@id='body']/div[@class='main main-review l-box col float-right']/div[@id='user-submit']/form[@id='frmOpin']/fieldset[@id='udata-f']/input[@id='email']' is not a valid XPath expression.
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MacBook-Pro.local', ip: 'fe80:0:0:0:8cd:5:eb2d:494a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:55433}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 423b30dd1393e2df692cf9cf4273b478
+*** Element info: {Using=xpath, value=(/html/body/div[@id='wrapper']/div[@id='outer']/div[@id='body']/div[@class='main main-review l-box col float-right']/div[@id='user-submit']/form[@id='frmOpin']/fieldset[@id='udata-f']/input[@id='email']}
+2022-01-05 21:37:25 DriverListener [ERROR] invalid selector: Unable to locate an element with the xpath expression (/html/body/div[@id='wrapper']/div[@id='outer']/div[@id='body']/div[@class='main main-review l-box col float-right']/div[@id='user-submit']/form[@id='frmOpin']/fieldset[@id='udata-f']/input[@id='email'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(/html/body/div[@id='wrapper']/div[@id='outer']/div[@id='body']/div[@class='main main-review l-box col float-right']/div[@id='user-submit']/form[@id='frmOpin']/fieldset[@id='udata-f']/input[@id='email']' is not a valid XPath expression.
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MacBook-Pro.local', ip: 'fe80:0:0:0:8cd:5:eb2d:494a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:55433}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 423b30dd1393e2df692cf9cf4273b478
+*** Element info: {Using=xpath, value=(/html/body/div[@id='wrapper']/div[@id='outer']/div[@id='body']/div[@class='main main-review l-box col float-right']/div[@id='user-submit']/form[@id='frmOpin']/fieldset[@id='udata-f']/input[@id='email']}
+2022-01-05 21:37:27 DriverListener [ERROR] invalid selector: Unable to locate an element with the xpath expression (/html/body/div[@id='wrapper']/div[@id='outer']/div[@id='body']/div[@class='main main-review l-box col float-right']/div[@id='user-submit']/form[@id='frmOpin']/fieldset[@id='udata-f']/input[@id='email'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(/html/body/div[@id='wrapper']/div[@id='outer']/div[@id='body']/div[@class='main main-review l-box col float-right']/div[@id='user-submit']/form[@id='frmOpin']/fieldset[@id='udata-f']/input[@id='email']' is not a valid XPath expression.
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MacBook-Pro.local', ip: 'fe80:0:0:0:8cd:5:eb2d:494a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:55433}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 423b30dd1393e2df692cf9cf4273b478
+*** Element info: {Using=xpath, value=(/html/body/div[@id='wrapper']/div[@id='outer']/div[@id='body']/div[@class='main main-review l-box col float-right']/div[@id='user-submit']/form[@id='frmOpin']/fieldset[@id='udata-f']/input[@id='email']}
+2022-01-05 21:37:29 DriverListener [ERROR] invalid selector: Unable to locate an element with the xpath expression (/html/body/div[@id='wrapper']/div[@id='outer']/div[@id='body']/div[@class='main main-review l-box col float-right']/div[@id='user-submit']/form[@id='frmOpin']/fieldset[@id='udata-f']/input[@id='email'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(/html/body/div[@id='wrapper']/div[@id='outer']/div[@id='body']/div[@class='main main-review l-box col float-right']/div[@id='user-submit']/form[@id='frmOpin']/fieldset[@id='udata-f']/input[@id='email']' is not a valid XPath expression.
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'solvds-MacBook-Pro.local', ip: 'fe80:0:0:0:8cd:5:eb2d:494a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/c3/b7rdqzc96dx...}, goog:chromeOptions: {debuggerAddress: localhost:55433}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 423b30dd1393e2df692cf9cf4273b478
+*** Element info: {Using=xpath, value=(/html/body/div[@id='wrapper']/div[@id='outer']/div[@id='body']/div[@class='main main-review l-box col float-right']/div[@id='user-submit']/form[@id='frmOpin']/fieldset[@id='udata-f']/input[@id='email']}
+2022-01-05 21:37:30 CarinaListener$ShutdownHook [WARN] Trying to quit driver 'default' on shutdown hook action!
+2022-01-05 21:51:10 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-05 21:51:10 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 21:51:11 Reflections [INFO] Reflections took 644 ms to scan 8 urls, producing 2329 keys and 11333 values 
+2022-01-05 21:51:11 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-05 21:51:11 CarinaListener [INFO] Set thread-count=1
+2022-01-05 21:51:11 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-05 21:51:11 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-05 21:51:11 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 21:51:11 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 21:51:11 Messager [INFO] TEST [beamplify - invalidEmailSignUp] STARTED at [21:51:11 2022-01-05]
+2022-01-05 21:51:13 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-05 21:51:24 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-05 21:51:28 DriverListener [INFO] PASS: element 'signUpButton' is clicked.
+2022-01-05 21:51:29 DriverListener [INFO] PASS: keys cleared in element 'yourNicknameField'.
+2022-01-05 21:51:30 DriverListener [INFO] PASS: keys 'RydiaOM' are sent to element 'yourNicknameField'.
+2022-01-05 21:51:31 DriverListener [INFO] PASS: keys cleared in element 'yourEmailField'.
+2022-01-05 21:51:32 DriverListener [INFO] PASS: keys 'ricardo@a' are sent to element 'yourEmailField'.
+2022-01-05 21:51:33 DriverListener [INFO] PASS: keys cleared in element 'yourPasswordField'.
+2022-01-05 21:51:34 DriverListener [INFO] PASS: keys 'asd123' are sent to element 'yourPasswordField'.
+2022-01-05 21:51:35 DriverListener [ERROR] FAIL: element 'roundCheckBox1 (By.xpath: //input[@id= 'iagree1' and @type= 'checkbox'])' is not clicked!
+2022-01-05 21:51:40 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'roundCheckBox1 (By.xpath: //input[@id= 'iagree1' and @type= 'checkbox'])' is not visible...
+2022-01-05 21:51:40 DriverListener [ERROR] FAIL: element 'roundCheckBox2 (By.xpath: //input[@id= 'iagree2' and @type= 'checkbox'])' is not clicked!
+2022-01-05 21:51:41 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'roundCheckBox2 (By.xpath: //input[@id= 'iagree2' and @type= 'checkbox'])' is not visible...
+2022-01-05 21:51:42 Messager [INFO] TEST [beamplify - invalidEmailSignUp] PASSED at [21:51:42 2022-01-05]
+2022-01-05 21:51:42 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-05 21:51:42 Messager [INFO] RESULT #1: TEST [beamplify - invalidEmailSignUp] PASS [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641430270167/c6b35338-23d3-4c38-bee3-63c721a40b2a/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641430270167/c6b35338-23d3-4c38-bee3-63c721a40b2a/test.log]
+2022-01-05 22:09:24 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-05 22:09:24 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:09:25 Reflections [INFO] Reflections took 711 ms to scan 8 urls, producing 2329 keys and 11334 values 
+2022-01-05 22:09:25 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-05 22:09:25 CarinaListener [INFO] Set thread-count=1
+2022-01-05 22:09:25 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-05 22:09:25 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-05 22:09:25 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:09:25 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:09:25 Messager [INFO] TEST [beamplify - testEmptyName] STARTED at [22:09:25 2022-01-05]
+2022-01-05 22:09:27 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-05 22:09:39 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-05 22:09:42 DriverListener [INFO] PASS: element 'signUpButton' is clicked.
+2022-01-05 22:09:44 DriverListener [INFO] PASS: keys cleared in element 'yourEmailField'.
+2022-01-05 22:09:45 DriverListener [INFO] PASS: keys 'ricardo@a' are sent to element 'yourEmailField'.
+2022-01-05 22:09:46 DriverListener [INFO] PASS: keys cleared in element 'yourPasswordField'.
+2022-01-05 22:09:48 DriverListener [INFO] PASS: keys 'asd123' are sent to element 'yourPasswordField'.
+2022-01-05 22:09:49 DriverListener [ERROR] FAIL: element 'roundCheckBox1 (By.xpath: //input[@id= 'iagree1' and @type= 'checkbox'])' is not clicked!
+2022-01-05 22:09:53 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'roundCheckBox1 (By.xpath: //input[@id= 'iagree1' and @type= 'checkbox'])' is not visible...
+2022-01-05 22:09:53 DriverListener [ERROR] FAIL: element 'roundCheckBox2 (By.xpath: //input[@id= 'iagree2' and @type= 'checkbox'])' is not clicked!
+2022-01-05 22:09:55 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'roundCheckBox2 (By.xpath: //input[@id= 'iagree2' and @type= 'checkbox'])' is not visible...
+2022-01-05 22:09:55 DriverListener [ERROR] FAIL: element 'submitButton (By.xpath: //input[@class= 'button' and @type= 'submit'])' is not clicked!
+2022-01-05 22:09:57 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'submitButton (By.xpath: //input[@class= 'button' and @type= 'submit'])' is not visible...
+2022-01-05 22:09:57 Messager [INFO] TEST [beamplify - testEmptyName] PASSED at [22:09:57 2022-01-05]
+2022-01-05 22:09:57 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-05 22:09:57 Messager [INFO] RESULT #1: TEST [beamplify - testEmptyName] PASS [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641431364485/eae1e8dc-eab6-48e6-b462-ccd5e589108b/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641431364485/eae1e8dc-eab6-48e6-b462-ccd5e589108b/test.log]
+2022-01-05 22:10:46 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-05 22:10:46 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:10:47 Reflections [INFO] Reflections took 760 ms to scan 8 urls, producing 2329 keys and 11334 values 
+2022-01-05 22:10:47 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-05 22:10:47 CarinaListener [INFO] Set thread-count=1
+2022-01-05 22:10:47 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-05 22:10:47 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-05 22:10:47 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:10:47 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:10:47 Messager [INFO] TEST [beamplify - testEmptyName] STARTED at [22:10:47 2022-01-05]
+2022-01-05 22:10:50 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-05 22:11:03 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-05 22:11:07 DriverListener [INFO] PASS: element 'signUpButton' is clicked.
+2022-01-05 22:11:09 DriverListener [INFO] PASS: keys cleared in element 'yourEmailField'.
+2022-01-05 22:11:10 DriverListener [INFO] PASS: keys 'ricardo@a' are sent to element 'yourEmailField'.
+2022-01-05 22:11:11 DriverListener [INFO] PASS: keys cleared in element 'yourPasswordField'.
+2022-01-05 22:11:13 DriverListener [INFO] PASS: keys 'asd123' are sent to element 'yourPasswordField'.
+2022-01-05 22:11:14 DriverListener [ERROR] FAIL: element 'roundCheckBox1 (By.xpath: //input[@id= 'iagree1' and @type= 'checkbox'])' is not clicked!
+2022-01-05 22:11:18 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'roundCheckBox1 (By.xpath: //input[@id= 'iagree1' and @type= 'checkbox'])' is not visible...
+2022-01-05 22:11:18 DriverListener [ERROR] FAIL: element 'roundCheckBox2 (By.xpath: //input[@id= 'iagree2' and @type= 'checkbox'])' is not clicked!
+2022-01-05 22:11:20 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'roundCheckBox2 (By.xpath: //input[@id= 'iagree2' and @type= 'checkbox'])' is not visible...
+2022-01-05 22:11:20 DriverListener [ERROR] FAIL: element 'submitButton (By.xpath: //input[@class= 'button' and @type= 'submit'])' is not clicked!
+2022-01-05 22:11:22 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'submitButton (By.xpath: //input[@class= 'button' and @type= 'submit'])' is not visible...
+2022-01-05 22:11:22 Messager [INFO] TEST [beamplify - testEmptyName] PASSED at [22:11:22 2022-01-05]
+2022-01-05 22:11:22 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-05 22:11:22 Messager [INFO] RESULT #1: TEST [beamplify - testEmptyName] PASS [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641431446844/7952626f-d04a-4c20-8213-21ab27a10ab8/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641431446844/7952626f-d04a-4c20-8213-21ab27a10ab8/test.log]
+2022-01-05 22:15:33 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-05 22:15:33 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:15:34 Reflections [INFO] Reflections took 821 ms to scan 8 urls, producing 2329 keys and 11334 values 
+2022-01-05 22:15:34 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-05 22:15:34 CarinaListener [INFO] Set thread-count=1
+2022-01-05 22:15:34 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-05 22:15:34 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-05 22:15:34 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:15:34 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:15:34 Messager [INFO] TEST [beamplify - testEmptyName] STARTED at [22:15:34 2022-01-05]
+2022-01-05 22:15:36 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-05 22:15:48 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-05 22:15:51 DriverListener [INFO] PASS: element 'signUpButton' is clicked.
+2022-01-05 22:15:53 DriverListener [INFO] PASS: keys cleared in element 'yourEmailField'.
+2022-01-05 22:15:54 DriverListener [INFO] PASS: keys 'ricardo@a' are sent to element 'yourEmailField'.
+2022-01-05 22:15:55 DriverListener [INFO] PASS: keys cleared in element 'yourPasswordField'.
+2022-01-05 22:15:56 DriverListener [INFO] PASS: keys 'asd123' are sent to element 'yourPasswordField'.
+2022-01-05 22:15:58 DriverListener [ERROR] FAIL: element 'roundCheckBox1 (By.xpath: //input[@id= 'iagree1' and @type= 'checkbox'])' is not clicked!
+2022-01-05 22:16:02 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'roundCheckBox1 (By.xpath: //input[@id= 'iagree1' and @type= 'checkbox'])' is not visible...
+2022-01-05 22:16:02 DriverListener [ERROR] FAIL: element 'roundCheckBox2 (By.xpath: //input[@id= 'iagree2' and @type= 'checkbox'])' is not clicked!
+2022-01-05 22:16:04 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'roundCheckBox2 (By.xpath: //input[@id= 'iagree2' and @type= 'checkbox'])' is not visible...
+2022-01-05 22:16:04 DriverListener [ERROR] FAIL: element 'submitButton (By.xpath: //input[@class= 'button' and @type= 'submit'])' is not clicked!
+2022-01-05 22:16:06 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'submitButton (By.xpath: //input[@class= 'button' and @type= 'submit'])' is not visible...
+2022-01-05 22:16:26 ExtendedWebElement [ERROR] FAIL: get_text - waitCondition for element 'emailFailed (By.xpath: /html/body/div[@id='wrapper']/div[@id='outer']/div[@id='body']/div[@class='main main-review l-box col float-right']/div[@class='normal-text res-error']/p)' not satisfied!
+2022-01-05 22:16:28 Messager [ERROR] TEST [beamplify - testEmptyName] FAILED at [22:16:28 2022-01-05] - Unable to detect element: emailFailed (By.xpath: /html/body/div[@id='wrapper']/div[@id='outer']/div[@id='body']/div[@class='main main-review l-box col float-right']/div[@class='normal-text res-error']/p)
+
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1416)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1363)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.getText(ExtendedWebElement.java:462)
+com.solvd.beamplify.RegisterPage.getInvalidEmailText(RegisterPage.java:18)
+com.solvd.beamplify.tests.BaseTest.testEmptyName(BaseTest.java:22)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-01-05 22:16:28 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-05 22:16:28 Messager [INFO] RESULT #1: TEST [beamplify - testEmptyName] FAIL [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641431733367/4b45204b-4175-422f-8f09-d6f5d2f61974/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641431733367/4b45204b-4175-422f-8f09-d6f5d2f61974/test.log]
+2022-01-05 22:20:34 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-05 22:20:34 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:20:35 Reflections [INFO] Reflections took 719 ms to scan 8 urls, producing 2329 keys and 11334 values 
+2022-01-05 22:20:35 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-05 22:20:35 CarinaListener [INFO] Set thread-count=1
+2022-01-05 22:20:35 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-05 22:20:35 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-05 22:20:35 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:20:35 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:20:35 Messager [INFO] TEST [beamplify - testEmptyName] STARTED at [22:20:35 2022-01-05]
+2022-01-05 22:20:37 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-05 22:20:50 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-05 22:20:53 DriverListener [INFO] PASS: element 'signUpButton' is clicked.
+2022-01-05 22:20:55 DriverListener [INFO] PASS: keys cleared in element 'yourEmailField'.
+2022-01-05 22:20:56 DriverListener [INFO] PASS: keys 'ricardo@a' are sent to element 'yourEmailField'.
+2022-01-05 22:20:57 DriverListener [INFO] PASS: keys cleared in element 'yourPasswordField'.
+2022-01-05 22:20:58 DriverListener [INFO] PASS: keys 'asd123' are sent to element 'yourPasswordField'.
+2022-01-05 22:21:00 DriverListener [ERROR] FAIL: element 'roundCheckBox1 (By.xpath: //input[@id= 'iagree1' and @type= 'checkbox'])' is not clicked!
+2022-01-05 22:21:05 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'roundCheckBox1 (By.xpath: //input[@id= 'iagree1' and @type= 'checkbox'])' is not visible...
+2022-01-05 22:21:05 DriverListener [ERROR] FAIL: element 'roundCheckBox2 (By.xpath: //input[@id= 'iagree2' and @type= 'checkbox'])' is not clicked!
+2022-01-05 22:21:06 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'roundCheckBox2 (By.xpath: //input[@id= 'iagree2' and @type= 'checkbox'])' is not visible...
+2022-01-05 22:21:06 DriverListener [ERROR] FAIL: element 'submitButton (By.xpath: //input[@class= 'button' and @type= 'submit'])' is not clicked!
+2022-01-05 22:21:08 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'submitButton (By.xpath: //input[@class= 'button' and @type= 'submit'])' is not visible...
+2022-01-05 22:21:29 Messager [ERROR] TEST [beamplify - testEmptyName] FAILED at [22:21:29 2022-01-05] - Alert Text Incorrect expected [Reason: You need to provide valid email. ricardo@a] but found [Reason: Your nickname should have between 2 and 20 symbols.]
+
+org.testng.Assert.fail(Assert.java:99)
+org.testng.Assert.failNotEquals(Assert.java:1037)
+org.testng.Assert.assertEqualsImpl(Assert.java:140)
+org.testng.Assert.assertEquals(Assert.java:122)
+org.testng.Assert.assertEquals(Assert.java:629)
+com.solvd.beamplify.tests.BaseTest.testEmptyName(BaseTest.java:22)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-01-05 22:21:29 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-05 22:21:29 Messager [INFO] RESULT #1: TEST [beamplify - testEmptyName] FAIL [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641432034461/92a87ab1-cf39-4e4c-a81d-8dd97b1df8d5/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641432034461/92a87ab1-cf39-4e4c-a81d-8dd97b1df8d5/test.log]
+2022-01-05 22:22:14 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-05 22:22:14 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:22:15 Reflections [INFO] Reflections took 857 ms to scan 8 urls, producing 2329 keys and 11334 values 
+2022-01-05 22:22:15 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-05 22:22:15 CarinaListener [INFO] Set thread-count=1
+2022-01-05 22:22:15 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-05 22:22:15 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-05 22:22:15 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:22:15 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:22:15 Messager [INFO] TEST [beamplify - testEmptyName] STARTED at [22:22:15 2022-01-05]
+2022-01-05 22:22:17 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-05 22:22:33 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-05 22:22:36 DriverListener [INFO] PASS: element 'signUpButton' is clicked.
+2022-01-05 22:22:37 DriverListener [INFO] PASS: keys cleared in element 'yourEmailField'.
+2022-01-05 22:22:39 DriverListener [INFO] PASS: keys 'ricardo@a' are sent to element 'yourEmailField'.
+2022-01-05 22:22:40 DriverListener [INFO] PASS: keys cleared in element 'yourPasswordField'.
+2022-01-05 22:22:41 DriverListener [INFO] PASS: keys 'asd123' are sent to element 'yourPasswordField'.
+2022-01-05 22:22:42 DriverListener [ERROR] FAIL: element 'roundCheckBox1 (By.xpath: //input[@id= 'iagree1' and @type= 'checkbox'])' is not clicked!
+2022-01-05 22:22:47 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'roundCheckBox1 (By.xpath: //input[@id= 'iagree1' and @type= 'checkbox'])' is not visible...
+2022-01-05 22:22:47 DriverListener [ERROR] FAIL: element 'roundCheckBox2 (By.xpath: //input[@id= 'iagree2' and @type= 'checkbox'])' is not clicked!
+2022-01-05 22:22:49 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'roundCheckBox2 (By.xpath: //input[@id= 'iagree2' and @type= 'checkbox'])' is not visible...
+2022-01-05 22:22:49 DriverListener [ERROR] FAIL: element 'submitButton (By.xpath: //input[@class= 'button' and @type= 'submit'])' is not clicked!
+2022-01-05 22:22:51 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'submitButton (By.xpath: //input[@class= 'button' and @type= 'submit'])' is not visible...
+2022-01-05 22:22:55 Messager [INFO] TEST [beamplify - testEmptyName] PASSED at [22:22:55 2022-01-05]
+2022-01-05 22:22:55 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-05 22:22:55 Messager [INFO] RESULT #1: TEST [beamplify - testEmptyName] PASS [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641432134271/7f7e6639-5a6a-42c0-b52f-bbe8ff3cd5e0/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641432134271/7f7e6639-5a6a-42c0-b52f-bbe8ff3cd5e0/test.log]
+2022-01-05 22:23:05 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-05 22:23:05 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:23:06 Reflections [INFO] Reflections took 689 ms to scan 8 urls, producing 2329 keys and 11334 values 
+2022-01-05 22:23:06 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-05 22:23:06 CarinaListener [INFO] Set thread-count=1
+2022-01-05 22:23:06 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-05 22:23:06 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-05 22:23:06 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:23:06 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:23:06 Messager [INFO] TEST [beamplify - testEmptyName] STARTED at [22:23:06 2022-01-05]
+2022-01-05 22:23:09 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-05 22:23:24 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-05 22:23:28 DriverListener [INFO] PASS: element 'signUpButton' is clicked.
+2022-01-05 22:23:29 DriverListener [INFO] PASS: keys cleared in element 'yourEmailField'.
+2022-01-05 22:23:30 DriverListener [INFO] PASS: keys 'ricardo@a' are sent to element 'yourEmailField'.
+2022-01-05 22:23:31 DriverListener [INFO] PASS: keys cleared in element 'yourPasswordField'.
+2022-01-05 22:23:32 DriverListener [INFO] PASS: keys 'asd123' are sent to element 'yourPasswordField'.
+2022-01-05 22:23:33 DriverListener [ERROR] FAIL: element 'roundCheckBox1 (By.xpath: //input[@id= 'iagree1' and @type= 'checkbox'])' is not clicked!
+2022-01-05 22:23:37 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'roundCheckBox1 (By.xpath: //input[@id= 'iagree1' and @type= 'checkbox'])' is not visible...
+2022-01-05 22:23:37 DriverListener [ERROR] FAIL: element 'roundCheckBox2 (By.xpath: //input[@id= 'iagree2' and @type= 'checkbox'])' is not clicked!
+2022-01-05 22:23:39 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'roundCheckBox2 (By.xpath: //input[@id= 'iagree2' and @type= 'checkbox'])' is not visible...
+2022-01-05 22:23:39 DriverListener [ERROR] FAIL: element 'submitButton (By.xpath: //input[@class= 'button' and @type= 'submit'])' is not clicked!
+2022-01-05 22:23:41 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'submitButton (By.xpath: //input[@class= 'button' and @type= 'submit'])' is not visible...
+2022-01-05 22:24:01 ExtendedWebElement [ERROR] FAIL: get_text - waitCondition for element 'emailFailed (By.xpath: //div[@class='normal-text res-error']//p)' not satisfied!
+2022-01-05 22:24:02 Messager [ERROR] TEST [beamplify - testEmptyName] FAILED at [22:24:02 2022-01-05] - Unable to detect element: emailFailed (By.xpath: //div[@class='normal-text res-error']//p)
+
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1416)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1363)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.getText(ExtendedWebElement.java:462)
+com.solvd.beamplify.RegisterPage.getInvalidEmailText(RegisterPage.java:18)
+com.solvd.beamplify.tests.BaseTest.testEmptyName(BaseTest.java:22)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-01-05 22:24:02 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-05 22:24:02 Messager [INFO] RESULT #1: TEST [beamplify - testEmptyName] FAIL [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641432185713/84f627de-4015-4ba0-bd64-bfcd78845be9/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641432185713/84f627de-4015-4ba0-bd64-bfcd78845be9/test.log]
+2022-01-05 22:27:53 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-05 22:27:53 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:27:54 Reflections [INFO] Reflections took 971 ms to scan 8 urls, producing 2329 keys and 11334 values 
+2022-01-05 22:27:54 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-05 22:27:54 CarinaListener [INFO] Set thread-count=1
+2022-01-05 22:27:54 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-05 22:27:54 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-05 22:27:54 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:27:54 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:27:54 Messager [INFO] TEST [beamplify - testEmptyName] STARTED at [22:27:54 2022-01-05]
+2022-01-05 22:27:56 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-05 22:27:59 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-05 22:28:04 DriverListener [INFO] PASS: element 'signUpButton' is clicked.
+2022-01-05 22:28:05 DriverListener [INFO] PASS: keys cleared in element 'yourEmailField'.
+2022-01-05 22:28:06 DriverListener [INFO] PASS: keys 'ricardo@a' are sent to element 'yourEmailField'.
+2022-01-05 22:28:08 DriverListener [INFO] PASS: keys cleared in element 'yourPasswordField'.
+2022-01-05 22:28:09 DriverListener [INFO] PASS: keys 'asd123' are sent to element 'yourPasswordField'.
+2022-01-05 22:28:10 DriverListener [ERROR] FAIL: element 'roundCheckBox1 (By.xpath: //input[@id= 'iagree1' and @type= 'checkbox'])' is not clicked!
+2022-01-05 22:28:14 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'roundCheckBox1 (By.xpath: //input[@id= 'iagree1' and @type= 'checkbox'])' is not visible...
+2022-01-05 22:28:14 DriverListener [ERROR] FAIL: element 'roundCheckBox2 (By.xpath: //input[@id= 'iagree2' and @type= 'checkbox'])' is not clicked!
+2022-01-05 22:28:16 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'roundCheckBox2 (By.xpath: //input[@id= 'iagree2' and @type= 'checkbox'])' is not visible...
+2022-01-05 22:28:17 Messager [ERROR] TEST [beamplify - testEmptyName] FAILED at [22:28:17 2022-01-05] - Alert Text Incorrect expected [Reason: Your nickname should have between 2 and 20 symbols.] but found [Reason: Email/password validation error. Please try again.]
+
+org.testng.Assert.fail(Assert.java:99)
+org.testng.Assert.failNotEquals(Assert.java:1037)
+org.testng.Assert.assertEqualsImpl(Assert.java:140)
+org.testng.Assert.assertEquals(Assert.java:122)
+org.testng.Assert.assertEquals(Assert.java:629)
+com.solvd.beamplify.tests.BaseTest.testEmptyName(BaseTest.java:22)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-01-05 22:28:17 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-05 22:28:17 Messager [INFO] RESULT #1: TEST [beamplify - testEmptyName] FAIL [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641432473199/9c7685d2-bf3c-4815-b144-210e7098e2a3/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641432473199/9c7685d2-bf3c-4815-b144-210e7098e2a3/test.log]
+2022-01-05 22:33:51 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-05 22:33:51 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:33:52 Reflections [INFO] Reflections took 640 ms to scan 8 urls, producing 2329 keys and 11334 values 
+2022-01-05 22:33:52 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-05 22:33:52 CarinaListener [INFO] Set thread-count=1
+2022-01-05 22:33:52 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-05 22:33:52 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-05 22:33:52 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:33:52 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:33:52 Messager [INFO] TEST [beamplify - testEmptyName] STARTED at [22:33:52 2022-01-05]
+2022-01-05 22:33:54 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-05 22:34:05 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-05 22:34:08 DriverListener [INFO] PASS: element 'signUpButton' is clicked.
+2022-01-05 22:34:09 DriverListener [INFO] PASS: keys cleared in element 'yourEmailField'.
+2022-01-05 22:34:10 DriverListener [INFO] PASS: keys 'ricardo@a' are sent to element 'yourEmailField'.
+2022-01-05 22:34:12 DriverListener [INFO] PASS: keys cleared in element 'yourPasswordField'.
+2022-01-05 22:34:13 DriverListener [INFO] PASS: keys 'asd123' are sent to element 'yourPasswordField'.
+2022-01-05 22:34:14 DriverListener [ERROR] FAIL: element 'roundCheckBox1 (By.xpath: //input[@id= 'iagree1' and @type= 'checkbox'])' is not clicked!
+2022-01-05 22:34:19 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'roundCheckBox1 (By.xpath: //input[@id= 'iagree1' and @type= 'checkbox'])' is not visible...
+2022-01-05 22:34:19 DriverListener [ERROR] FAIL: element 'roundCheckBox2 (By.xpath: //input[@id= 'iagree2' and @type= 'checkbox'])' is not clicked!
+2022-01-05 22:34:21 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'roundCheckBox2 (By.xpath: //input[@id= 'iagree2' and @type= 'checkbox'])' is not visible...
+2022-01-05 22:34:22 Messager [ERROR] TEST [beamplify - testEmptyName] FAILED at [22:34:22 2022-01-05] - Alert Text Incorrect expected [Reason: Your nickname should have between 2 and 20 symbols.] but found [Reason: Email/password validation error. Please try again.]
+
+org.testng.Assert.fail(Assert.java:99)
+org.testng.Assert.failNotEquals(Assert.java:1037)
+org.testng.Assert.assertEqualsImpl(Assert.java:140)
+org.testng.Assert.assertEquals(Assert.java:122)
+org.testng.Assert.assertEquals(Assert.java:629)
+com.solvd.beamplify.tests.BaseTest.testEmptyName(BaseTest.java:22)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-01-05 22:34:22 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-05 22:34:22 Messager [INFO] RESULT #1: TEST [beamplify - testEmptyName] FAIL [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641432831544/34d60322-e5f9-43e4-a274-959e671d258c/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641432831544/34d60322-e5f9-43e4-a274-959e671d258c/test.log]
+2022-01-05 22:34:51 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-05 22:34:51 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:34:52 Reflections [INFO] Reflections took 863 ms to scan 8 urls, producing 2329 keys and 11334 values 
+2022-01-05 22:34:52 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-05 22:34:52 CarinaListener [INFO] Set thread-count=1
+2022-01-05 22:34:52 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-05 22:34:53 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-05 22:34:53 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:34:53 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:34:53 Messager [INFO] TEST [beamplify - testEmptyName] STARTED at [22:34:53 2022-01-05]
+2022-01-05 22:34:55 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-05 22:35:08 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-05 22:35:11 DriverListener [INFO] PASS: element 'signUpButton' is clicked.
+2022-01-05 22:35:12 DriverListener [INFO] PASS: keys cleared in element 'yourEmailField'.
+2022-01-05 22:35:13 DriverListener [INFO] PASS: keys 'ricardo@a' are sent to element 'yourEmailField'.
+2022-01-05 22:35:14 DriverListener [INFO] PASS: keys cleared in element 'yourPasswordField'.
+2022-01-05 22:35:15 DriverListener [INFO] PASS: keys 'asd123' are sent to element 'yourPasswordField'.
+2022-01-05 22:35:16 DriverListener [ERROR] FAIL: element 'roundCheckBox1 (By.xpath: //input[@id= 'iagree1' and @type= 'checkbox'])' is not clicked!
+2022-01-05 22:35:21 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'roundCheckBox1 (By.xpath: //input[@id= 'iagree1' and @type= 'checkbox'])' is not visible...
+2022-01-05 22:35:21 DriverListener [ERROR] FAIL: element 'roundCheckBox2 (By.xpath: //input[@id= 'iagree2' and @type= 'checkbox'])' is not clicked!
+2022-01-05 22:35:23 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'roundCheckBox2 (By.xpath: //input[@id= 'iagree2' and @type= 'checkbox'])' is not visible...
+2022-01-05 22:35:24 Messager [INFO] TEST [beamplify - testEmptyName] PASSED at [22:35:24 2022-01-05]
+2022-01-05 22:35:24 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-05 22:35:24 Messager [INFO] RESULT #1: TEST [beamplify - testEmptyName] PASS [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641432891853/6c7f2c99-8620-48d4-8c84-8cd9ccc0a397/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641432891853/6c7f2c99-8620-48d4-8c84-8cd9ccc0a397/test.log]
+2022-01-05 22:39:04 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-05 22:39:05 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:39:05 Reflections [INFO] Reflections took 696 ms to scan 8 urls, producing 2329 keys and 11334 values 
+2022-01-05 22:39:05 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-05 22:39:05 CarinaListener [INFO] Set thread-count=1
+2022-01-05 22:39:05 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-05 22:39:05 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-05 22:39:05 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:39:05 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:39:05 Messager [INFO] TEST [beamplify - testEmptyEmail] STARTED at [22:39:05 2022-01-05]
+2022-01-05 22:39:08 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-05 22:39:19 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-05 22:39:22 DriverListener [INFO] PASS: element 'signUpButton' is clicked.
+2022-01-05 22:39:24 DriverListener [INFO] PASS: keys cleared in element 'yourNicknameField'.
+2022-01-05 22:39:25 DriverListener [INFO] PASS: keys 'RydiaOM' are sent to element 'yourNicknameField'.
+2022-01-05 22:39:26 DriverListener [INFO] PASS: keys cleared in element 'yourPasswordField'.
+2022-01-05 22:39:27 DriverListener [INFO] PASS: keys 'asd123' are sent to element 'yourPasswordField'.
+2022-01-05 22:39:28 DriverListener [ERROR] FAIL: element 'roundCheckBox1 (By.xpath: //input[@id= 'iagree1' and @type= 'checkbox'])' is not clicked!
+2022-01-05 22:39:33 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'roundCheckBox1 (By.xpath: //input[@id= 'iagree1' and @type= 'checkbox'])' is not visible...
+2022-01-05 22:39:33 DriverListener [ERROR] FAIL: element 'roundCheckBox2 (By.xpath: //input[@id= 'iagree2' and @type= 'checkbox'])' is not clicked!
+2022-01-05 22:39:35 ExtendedWebElement [WARN] Trying to do click by JavascriptExecutor because element 'roundCheckBox2 (By.xpath: //input[@id= 'iagree2' and @type= 'checkbox'])' is not visible...
+2022-01-05 22:39:35 Messager [INFO] TEST [beamplify - testEmptyEmail] PASSED at [22:39:35 2022-01-05]
+2022-01-05 22:39:35 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-05 22:39:35 Messager [INFO] RESULT #1: TEST [beamplify - testEmptyEmail] PASS [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641433144923/85ac37ff-9291-4d22-91bc-001a733c94b4/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641433144923/85ac37ff-9291-4d22-91bc-001a733c94b4/test.log]
+2022-01-05 22:45:42 CarinaListener [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+2022-01-05 22:45:42 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:45:43 Reflections [INFO] Reflections took 667 ms to scan 8 urls, producing 2329 keys and 11334 values 
+2022-01-05 22:45:43 FilterTestsListener [INFO] There are no any rules and limitations
+2022-01-05 22:45:43 CarinaListener [INFO] Set thread-count=1
+2022-01-05 22:45:43 CarinaListener [INFO] Set data-provider-thread-count=1
+2022-01-05 22:45:43 CarinaListener [INFO] CARINA_CORE_VERSION: 7.2.14
+2022-01-05 22:45:43 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:45:43 TestRunRegistrar [WARN] Reporting disabled: using no op test run registrar
+2022-01-05 22:45:43 Messager [INFO] TEST [beamplify - testNonValidatedChecks] STARTED at [22:45:43 2022-01-05]
+2022-01-05 22:45:45 Messager [INFO] INFO: opening url 'https://www.gsmarena.com'
+2022-01-05 22:45:56 DriverListener [INFO] URL 'https://www.gsmarena.com' opened
+2022-01-05 22:45:59 DriverListener [INFO] PASS: element 'signUpButton' is clicked.
+2022-01-05 22:46:00 DriverListener [INFO] PASS: keys cleared in element 'yourNicknameField'.
+2022-01-05 22:46:02 DriverListener [INFO] PASS: keys 'RydiaOM' are sent to element 'yourNicknameField'.
+2022-01-05 22:46:03 DriverListener [INFO] PASS: keys cleared in element 'yourEmailField'.
+2022-01-05 22:46:04 DriverListener [INFO] PASS: keys 'ricardo@a' are sent to element 'yourEmailField'.
+2022-01-05 22:46:05 DriverListener [INFO] PASS: keys cleared in element 'yourPasswordField'.
+2022-01-05 22:46:06 DriverListener [INFO] PASS: keys 'asd123' are sent to element 'yourPasswordField'.
+2022-01-05 22:46:07 Messager [INFO] TEST [beamplify - testNonValidatedChecks] PASSED at [22:46:07 2022-01-05]
+2022-01-05 22:46:07 Messager [INFO] INFO: '**************** Test execution summary ****************'.
+2022-01-05 22:46:07 Messager [INFO] RESULT #1: TEST [beamplify - testNonValidatedChecks] PASS [screenshots=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641433542349/dcc456ea-ac8b-42b5-a096-d4fa633b8f36/report.html | log=file:///Users/solvd/IdeaProjects/beamplify-demo/./reports/1641433542349/dcc456ea-ac8b-42b5-a096-d4fa633b8f36/test.log]
